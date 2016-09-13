@@ -1,0 +1,69 @@
+<div class="aam-feature" id="utilities-content">
+    <table class="table table-striped table-bordered">
+        <tbody>
+            <tr>
+                <td>
+                    <span class='aam-setting-title'><?php echo __('Edit/Delete Capabilities', AAM_KEY); ?></span>
+                    <p class="aam-setting-description">
+                        <?php echo AAM_Backend_View_Helper::preparePhrase('[Please notice!] This feature should be used only by experienced users. Toggle an ability to edit or delete capabilities. [Since AAM v3.0.6]', 'strong', 'small'); ?>
+                    </p>
+                </td>
+                <td>
+                    <input data-toggle="toggle" data-on="<?php echo __('Enabled', AAM_KEY); ?>" data-off="<?php echo __('Disabled', AAM_KEY); ?>" type="checkbox" name="manage-capability" <?php echo (AAM_Core_Config::get('manage-capability', false) ? 'checked' : ''); ?> />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class='aam-setting-title'><?php echo __('Backend Access Control', AAM_KEY); ?></span>
+                    <p class="aam-setting-description">
+                        <?php echo AAM_Backend_View_Helper::preparePhrase('Use AAM to control access to posts, pages, categories, menus and metaboxes etc. Disable this setting to stop AAM from controling access for backend. [Since AAM v3.1]', 'small'); ?>
+                    </p>
+                </td>
+                <td>
+                    <input data-toggle="toggle" data-on="<?php echo __('Enabled', AAM_KEY); ?>" data-off="<?php echo __('Disabled', AAM_KEY); ?>" type="checkbox" name="backend-access-control" <?php echo (AAM_Core_Config::get('backend-access-control', true) ? 'checked' : ''); ?> />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class='aam-setting-title'><?php echo __('Frontend Access Control', AAM_KEY); ?></span>
+                    <p class="aam-setting-description">
+                        <?php echo AAM_Backend_View_Helper::preparePhrase('Use AAM to control access to posts, pages, categories, menus and widgets. Disable this setting to stop AAM from controling access for frontend. [Since AAM v3.1]', 'small'); ?>
+                    </p>
+                </td>
+                <td>
+                    <input data-toggle="toggle" data-on="<?php echo __('Enabled', AAM_KEY); ?>" data-off="<?php echo __('Disabled', AAM_KEY); ?>" type="checkbox" name="frontend-access-control" <?php echo (AAM_Core_Config::get('frontend-access-control', true) ? 'checked' : ''); ?> />
+                </td>
+            </tr>
+            <?php do_action('aam-utilities-setting'); ?>
+            <tr>
+                <td>
+                    <span class='aam-setting-title'><?php echo __('Clear All Settings', AAM_KEY); ?></span>
+                    <p class="aam-setting-description">
+                        <?php echo __('Remove all the settings related to AAM (including all extension licenses).', AAM_KEY); ?>
+                    </p>
+                </td>
+                <td>
+                    <a href="#clear-settings-modal" data-toggle="modal" class="btn btn-danger btn-block">Clear Settings</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="modal fade" id="clear-settings-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="<?php echo __('Close', AAM_KEY); ?>"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title"><?php echo __('Clear All Settings', AAM_KEY); ?></h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center text-larger"><?php echo __('All settings related to AAM will be removed. Please confirm your action.', AAM_KEY); ?></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" id="clear-settings"><?php echo __('Clear', AAM_KEY); ?></button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo __('Cancel', AAM_KEY); ?></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+[2015-01-30 11:32:59] :: Exception:SQLSTATE[HY000] [1045] Access denied for user 'vspuser'@'localhost' (using password: YES)
+#0 G:\wamp\www\demo\helper\database.php(83): PDO->__construct('mysql:host=loca...', 'vspuser', '123')
+#1 G:\wamp\www\demo\helper\database.php(192): HelperDatabase->__construct()
+#2 G:\wamp\www\demo\app.php(37): HelperDatabase::getInstance()
+#3 G:\wamp\www\demo\index.php(16): App->__construct(Object(SagepaySettings))
+#4 {main}
+[2015-01-30 11:34:45] :: Exception:SQLSTATE[HY000] [1045] Access denied for user 'vspuser'@'localhost' (using password: YES)
+#0 G:\wamp\www\demo\helper\database.php(83): PDO->__construct('mysql:host=loca...', 'vspuser', '123')
+#1 G:\wamp\www\demo\helper\database.php(192): HelperDatabase->__construct()
+#2 G:\wamp\www\demo\app.php(37): HelperDatabase::getInstance()
+#3 G:\wamp\www\demo\index.php(16): App->__construct(Object(SagepaySettings))
+#4 {main}
+[2015-01-30 11:34:46] :: Exception:SQLSTATE[HY000] [1045] Access denied for user 'vspuser'@'localhost' (using password: YES)
+#0 G:\wamp\www\demo\helper\database.php(83): PDO->__construct('mysql:host=loca...', 'vspuser', '123')
+#1 G:\wamp\www\demo\helper\database.php(192): HelperDatabase->__construct()
+#2 G:\wamp\www\demo\app.php(37): HelperDatabase::getInstance()
+#3 G:\wamp\www\demo\index.php(16): App->__construct(Object(SagepaySettings))
+#4 {main}
+[2015-01-30 11:35:19] :: Exception:Try to access invalid controller
+#0 G:\wamp\www\demo\app.php(48): App->_view('Images', 'YellowBlob.png')
+#1 G:\wamp\www\demo\index.php(16): App->__construct(Object(SagepaySettings))
+#2 {main}
+[2015-01-30 11:55:51] :: Exception:Try to access invalid controller
+#0 G:\wamp\www\demo\app.php(48): App->_view('Images', 'YellowBlob.png')
+#1 G:\wamp\www\demo\index.php(16): App->__construct(Object(SagepaySettings))
+#2 {main}
+[2015-03-14 03:00:18] :: Request:
+VPSProtocol=3.00&TxType=PAYMENT&Vendor=protxross&VendorTxCode=protxross-PAYMENT-1426298416-847106934&Amount=36.95&Currency=GBP&Description=DVDs from Sagepay Demo Page&NotificationURL=...&BillingSurname=...&BillingFirstnames=...&BillingAddress1=...&BillingCity=...&BillingPostCode=...&BillingCountry=...&DeliverySurname=...&DeliveryFirstnames=...&DeliveryAddress1=...&DeliveryCity=...&DeliveryPostCode=...&DeliveryCountry=...&StoreToken=...&CustomerName=...&CustomerEMail=...&VendorEMail=...&SendEMail=...&eMailMessage=...&BillingAddress2=...&BillingPhone=...&ApplyAVSCV2=...&Apply3DSecure=...&AllowGiftAid=...&BillingAgreement=...&CustomerXML=...&DeliveryAddress2=...&DeliveryPhone=...&BasketXML=...&SurchargeXML=...&Profile=...&AccountType=...
+[2015-03-14 03:00:18] :: Response:
+{"VPSProtocol":"VPSProtocol=3.00","Status":"Status=OK","StatusDetail":"StatusDetail=2014 : The Transaction was Registered Successfully.","VPSTxId":"VPSTxId={FF8B978A-AA83-3DA2-DBCF-EC034DED229E}","SecurityKey":"...","NextURL":"..."}
+[2015-03-14 03:01:23] :: Request:
+VPSProtocol=3.00&TxType=PAYMENT&Vendor=protxross&VendorTxCode=protxross-PAYMENT-1426298481-177917480&Amount=47.51&Currency=GBP&Description=DVDs from Sagepay Demo Page&NotificationURL=...&BillingSurname=...&BillingFirstnames=...&BillingAddress1=...&BillingCity=...&BillingPostCode=...&BillingCountry=...&DeliverySurname=...&DeliveryFirstnames=...&DeliveryAddress1=...&DeliveryCity=...&DeliveryPostCode=...&DeliveryCountry=...&StoreToken=...&CustomerName=...&CustomerEMail=...&VendorEMail=...&SendEMail=...&eMailMessage=...&BillingAddress2=...&BillingPhone=...&ApplyAVSCV2=...&Apply3DSecure=...&AllowGiftAid=...&BillingAgreement=...&CustomerXML=...&DeliveryAddress2=...&DeliveryPhone=...&BasketXML=...&SurchargeXML=...&Profile=...&AccountType=...
+[2015-03-14 03:01:23] :: Response:
+{"VPSProtocol":"VPSProtocol=3.00","Status":"Status=OK","StatusDetail":"StatusDetail=2014 : The Transaction was Registered Successfully.","VPSTxId":"VPSTxId={CC2A106C-86FC-9373-175E-13DAD5F829AC}","SecurityKey":"...","NextURL":"..."}
+[2015-03-14 03:22:48] :: Request:
+VPSProtocol=3.00&TxType=PAYMENT&Vendor=protxross&VendorTxCode=protxross-PAYMENT-1426299767-980255127&Amount=11.75&Currency=GBP&Description=DVDs from Sagepay Demo Page&NotificationURL=...&BillingSurname=...&BillingFirstnames=...&BillingAddress1=...&BillingCity=...&BillingPostCode=...&BillingCountry=...&DeliverySurname=...&DeliveryFirstnames=...&DeliveryAddress1=...&DeliveryCity=...&DeliveryPostCode=...&DeliveryCountry=...&StoreToken=...&CustomerName=...&CustomerEMail=...&VendorEMail=...&SendEMail=...&eMailMessage=...&BillingAddress2=...&BillingPhone=...&ApplyAVSCV2=...&Apply3DSecure=...&AllowGiftAid=...&BillingAgreement=...&CustomerXML=...&DeliveryAddress2=...&DeliveryPhone=...&BasketXML=...&SurchargeXML=...&Profile=...&AccountType=...
+[2015-03-14 03:22:48] :: Response:
+{"VPSProtocol":"VPSProtocol=3.00","Status":"Status=OK","StatusDetail":"StatusDetail=2014 : The Transaction was Registered Successfully.","VPSTxId":"VPSTxId={1E0AFBCC-A9A5-8BCB-7979-92B808461DCC}","SecurityKey":"...","NextURL":"..."}
+[2015-03-14 03:37:58] :: Exception:Try to access invalid controller
+#0 G:\wamp\www\sage\demo\app.php(48): App->_view('Images', 'YellowBlob.png')
+#1 G:\wamp\www\sage\demo\index.php(16): App->__construct(Object(SagepaySettings))
+#2 {main}
+[2015-03-17 04:21:13] :: Exception:SQLSTATE[HY000] [1049] Unknown database 'sage'
+#0 G:\wamp\www\sage\demo\helper\database.php(83): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 G:\wamp\www\sage\demo\helper\database.php(192): HelperDatabase->__construct()
+#2 G:\wamp\www\sage\demo\app.php(37): HelperDatabase::getInstance()
+#3 G:\wamp\www\sage\demo\index.php(16): App->__construct(Object(SagepaySettings))
+#4 {main}
+[2015-03-17 04:21:15] :: Exception:SQLSTATE[HY000] [1049] Unknown database 'sage'
+#0 G:\wamp\www\sage\demo\helper\database.php(83): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 G:\wamp\www\sage\demo\helper\database.php(192): HelperDatabase->__construct()
+#2 G:\wamp\www\sage\demo\app.php(37): HelperDatabase::getInstance()
+#3 G:\wamp\www\sage\demo\index.php(16): App->__construct(Object(SagepaySettings))
+#4 {main}

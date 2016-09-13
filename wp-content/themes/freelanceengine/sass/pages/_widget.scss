@@ -1,0 +1,148 @@
+.widget.widget_archive > select,
+.widget.widget_categories > select{
+  width: 100%;
+  height: 35px;
+  border: 1px solid rgba(140, 151, 178, 0.4);
+  border-radius: $border-radius-base;
+  color: #8b97b1;
+  padding-left: 10px;
+}
+.widget.widget_archive > select option ,
+.widget.widget_categories > select option {
+  padding: 5px;
+}
+.widget_calendar{
+  td{
+    padding: 5px;
+  }
+  th{
+    text-align: center;
+  }
+  caption{
+    margin-bottom: 20px;
+  }
+}
+.widget.widget_calendar{
+  table{
+    border: 1px solid #d7d9da;
+    width:100%;
+    tr > td > a{
+      color: $orange-base;
+      font-weight: 600;
+    }
+    thead th{
+      padding-top: 15px;
+    }
+    caption{
+      background: $gray-lighter;
+      border: 1px solid lighten($gray-base, 80.5%);
+      border-bottom: none;
+      margin-bottom: 0;
+      padding:12px;
+    }
+  }
+}
+.widget.widget_search{
+  position: relative;
+  input[type="text"]{
+    width: 100%;
+    height:35px;
+    border: 1px solid lighten($gray-base, 80.5%);
+    border-radius: $border-radius-base;
+    padding:0 5px;
+  }
+  input[type="submit"]{
+    background: $orange-base;
+    border:none;
+    outline:none;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 35px;
+    bottom: 15px;
+    opacity: 0;
+    z-index: 2
+  }
+}
+.widget.widget_search form > div:after{
+  content: "\f002";
+  color:$blue-base;
+  right:17px;
+  bottom: 8px;
+  position: absolute;
+  font-family: 'FontAwesome'
+}
+.widget.widget_meta ul,
+.widget.widget_pages ul,
+.widget.widget_recent_entries ul,
+.widget.widget_recent_comments ul,
+.widget.widget_categories ul {
+  padding-left: 30px;
+}
+.widget.widget_meta ul li,
+.widget.widget_pages ul li,
+.widget.widget_recent_entries ul li,
+.widget.widget_recent_comments ul li,
+.widget.widget_categories ul li {
+  padding:4px 0;
+  list-style: none;
+  position: relative;
+}
+.widget.widget_meta ul li:before,
+.widget.widget_pages ul li:before,
+.widget.widget_recent_entries ul li:before,
+.widget.widget_recent_comments ul li:before,
+.widget.widget_categories ul li:before {
+  content: '\f111';
+  font-family:"FontAwesome";
+  font-size:4px;
+  position: absolute;
+  top:12px;
+  left: -15px;
+}
+.widget.widget_archive h2.widgettitle,
+.widget.widget_categories h2.widgettitle,
+.widget.fre-social h2.widgettitle,
+.widget.widget_pages h2.widgettitle,
+.widget.widget_recent_entries h2.widgettitle,
+.widget.widget_tag_cloud h2.widgettitle,
+.widget.widget_calendar h2.widgettitle,
+.widget.widget_meta h2.widgettitle,
+.widget.widget_recent_comments h2.widgettitle,
+.widget.widget_search h2.widgettitle,
+.widget.widget_text h2.widgettitle {
+  text-transform: uppercase;
+}
+.widget.widget_archive > label,
+.widget.widget_categories > label,
+.widget.fre-social > label,
+.widget.widget_pages > label,
+.widget.widget_recent_entries > label,
+.widget.widget_tag_cloud > label,
+.widget.widget_calendar > label,
+.widget.widget_meta > label,
+.widget.widget_recent_comments > label,
+.widget.widget_search > label,
+.widget.widget_text > label {
+  display: none;
+}
+.widget.widget_text .textwidget{
+  line-height: 30px;
+}
+.widget.widget_tag_cloud .tagcloud{
+  margin-top: 16px;
+}
+.widget.widget_tag_cloud .tagcloud	a{
+  padding: 4px 10px;
+  border-radius: $border-radius-base;
+  background: $gray-lighter;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  color: #666f78;
+  display: inline-block;
+  font-size: $font-size-base !important;
+  &:hover{
+    color: $white-base;
+    background: $blue-light-base;
+  }
+}

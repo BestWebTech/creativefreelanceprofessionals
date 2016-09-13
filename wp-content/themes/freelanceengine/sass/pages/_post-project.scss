@@ -1,0 +1,374 @@
+#post-project{
+  margin-top: 30px;
+  .blog-sidebar{
+    padding-top: 0;
+  }
+  .post-place-wrapper{
+    display: block;
+    min-height: 100px;
+    background-color: $white-base;
+    -moz-box-shadow:  0 1px 1px rgba($gray-light,.2);
+    -webkit-box-shadow:  0 1px 1px rgba($gray-light,.2);
+    box-shadow: 0 1px 1px rgba($gray-light,.2);
+    margin-top: 25px;
+  }
+  #step-plan{
+    li{
+      position: relative;
+    }
+    .title-plan{
+      color: $blue-base;
+      font-weight: 700;
+      font-size: $font-size-base;
+      p{
+        color: #737c85;
+        font-weight: 400;
+        padding-top: 5px;
+      }
+    }
+    .select-plan{
+      position: absolute;
+      top: 35%;
+      right: 22px;
+    }
+  }
+  #step-payment{
+    .title-plan{
+      color: $blue-base;
+      font-weight: 700;
+      font-size: $font-size-base;
+      text-transform: uppercase;
+      p{
+        color: #737c85;
+        font-weight: 400;
+        padding-top: 5px;
+      }
+    }
+  }
+}
+.error .message, .error .fa-exclamation-triangle {
+  font-size: $font-size-small;
+  color: #e18972;
+}
+.form-group.custom-field .chosen-container {
+  width: 100% !important;
+}
+.form-group.custom-field .chosen-container .chosen-single {
+  border-radius: $border-radius-base;
+  padding-left: 12px;
+  height: auto;
+  line-height: 20px;
+  padding: 12px 10px;
+}
+.text-intro-acc, .step-content-wrapper .form-group{
+  display: block;
+  border-bottom: 1px solid #ecf0f1;
+  margin-bottom:0;
+}
+.text-intro-acc{
+  padding: 23px 25px;
+  font-size: $font-size-base;
+  font-weight: 300;
+  color: #5f6f81;
+  a{
+    color: #2980b9;
+    font-weight: 600;
+  }
+}
+.step-content-wrapper .form-group{
+  padding: 25px;
+}
+.btn-submit-login-form{
+  -moz-border-radius: $border-radius-base;
+  -webkit-border-radius: $border-radius-base;
+  border-radius: $border-radius-base;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: $blue-light-base;
+  -moz-box-shadow: 0 2px 0 $blue-dark-base;
+  -webkit-box-shadow: 0 2px 0 $blue-dark-base;
+  box-shadow: 0 2px 0 $blue-dark-base;
+  font-weight: 300;
+  padding: 10px 25px;
+  color: $white-base;
+  &:hover{
+    opacity: 0.8;
+    color: $white-base;
+  }
+}
+.text-policy{
+  font-size: $font-size-base;
+  color: $blue-base;
+  font-weight: 300;
+  margin-bottom: 0;
+  font-size: 13px;
+  a{
+    color: #2980b9;
+    font-weight: 500;
+  }
+}
+.term-of-use {
+  padding: 20px 0 10px 0;
+  font-style: italic;
+  font-size: $font-size-small;
+  font-weight: 300;
+  a{
+    color: #2980b9;
+    font-weight: 500;
+  }
+}
+.carousel-list{
+  padding: 0;
+  li{
+    &.image-item{
+      background: #ececec;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  }
+}
+.carousel-list, .carousel-list {
+  li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+}
+.form-group.skill-control .typeahead{
+  height:auto;
+}
+.content-search-form-top-wrapper 
+.skills-list{
+  padding:0;
+  margin:0;
+  list-style:none;
+  margin-top:20px;
+  li{
+    display: inline-block;
+    padding: 3px 12px;
+    -moz-border-radius: $border-radius-base;
+    -webkit-border-radius: $border-radius-base;
+    border-radius: $border-radius-base;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #f1f5f7;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    i{
+      display:inline-block;
+      margin-left:10px;
+      color: #656f77;
+      font-size: 12px;
+    }
+    .text-ellipsis{
+      max-width: 75px;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: $font-size-small;
+      font-weight: 300;
+      color: #666f78;
+    }
+    .typeahead{
+      max-height: 400px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      width: 200px;
+      &.dropdown-menu{
+        li a{
+          padding: 5px 13px;
+          white-space: initial;
+        }
+      }
+    }
+  }
+}
+.step-heading{
+  display: block;
+  border-bottom: 1px solid #ecf0f1;
+  position: relative;
+  .number-step{
+    border-right: 1px solid #ecf0f1;
+    font-size: 18px;
+    color: #5d605f;
+    font-weight: 300;
+    width: 45px;
+    min-height: 45px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 2.5;
+  }
+  .text-heading-step{
+    font-size: $font-size-base;
+    font-weight: 400;
+  }
+  i.fa-caret-right, i.fa-caret-down{
+    position: absolute;
+    color: $blue-base;
+    font-size: $font-size-base;
+    right: 23px;
+    top: 16px;
+  }
+}
+.step-content-wrapper{
+  display: block;
+  .list-price{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+      &.selected{
+        background : #eaf6fd;
+      }
+      .price{
+        color: #c04f31;
+        font-size: 27px;
+        font-weight: 300;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right:20px;
+        min-width: 68px;
+        position: relative;
+        bottom: 3px;
+      }
+      .btn{
+        &.btn-submit-price-plan, &.btn-submit-login-form{
+          display: inline-block;
+          float: right;
+          vertical-align: middle;
+          padding:8px 25px;
+          -moz-border-radius: $border-radius-base;
+          -webkit-border-radius: $border-radius-base;
+          border-radius: $border-radius-base;
+          -moz-background-clip: padding;
+          -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+          background-color: $blue-light-base;
+          -moz-box-shadow: 0 2px 0 $blue-dark-base;
+          -webkit-box-shadow: 0 2px 0 $blue-dark-base;
+          box-shadow: 0 2px 0 $blue-dark-base;
+          color: $white-base;
+          font-size: $font-size-base;
+          &:hover{
+            opacity: .8;
+          }
+        }
+        &.btn-submit-login-form{
+          float: none;
+        }
+      }
+      sup{
+        top:-3px;
+      }
+      .package-title, .package-limit{
+        display: inline-block;
+      }
+      .package-title{
+        color: $blue-base;
+        text-transform: uppercase;
+        font-size: $font-size-base;
+        font-weight: 700;
+      }
+    }
+    .title-plan{
+      width: 70%;
+    }
+  }
+  .list-price, .list-form-login{
+    li{
+      display: block;
+      padding: 30px 25px;
+      border-bottom: 1px solid #ecf0f1;
+    }
+  }
+  .col-md-8{
+    &.error{
+      position: relative;
+    }
+  }
+  .fa-exclamation-triangle{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  }
+  .wp-editor-wrap{
+    overflow: hidden;
+    .fa-exclamation-triangle{
+      right: 10px;
+    }
+  }
+  .message{
+    text-align: right;
+    padding-right: 1.5%;
+  }
+  .title-plan{
+    color: #5f6f81;
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: capitalize;
+    span{
+      color: #5f6f81;
+      font-weight: 400;
+      font-size: $font-size-base;
+      display: block;
+      text-transform: none;
+      font-weight: 400;
+      p{
+        margin:0;
+      }
+    }
+  }
+  input.text-field, .chosen-container-multi .chosen-choices, #modal_edit_project .chosen-container-multi .chosen-choices{
+    width: 100%;
+    border: 1px solid #d7d8da;
+    -moz-border-radius: $border-radius-base;
+    -webkit-border-radius: $border-radius-base;
+    border-radius: $border-radius-base;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: $white-base;
+    height: auto;
+    padding: 12px 10px;
+    font-weight: 300;
+    color: #737c85;
+  }
+  textarea.form-control{
+    display: block;
+    border-bottom: 1px solid #ecf0f1;
+    padding: 30px 25px;
+    margin-bottom:0;
+  }
+}
+.form-content{
+  background: #fff;
+  margin-top: 30px;
+}
+.credit .blog-sidebar{
+  margin-top: 50px;
+}
+
+.redirect-content .main-center {
+  padding: 2px 20px 20px;
+}
+div.mce-panel {
+  width: 99.9%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .content-search-form-top-wrapper {
+        .skill-control {
+            .typeahead {
+                left:inherit !important;
+                right: 10px;
+            }
+        }
+    }
+}

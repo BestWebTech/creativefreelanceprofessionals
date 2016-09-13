@@ -1,0 +1,408 @@
+#header-wrapper{
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  height: auto;
+  background-color: none;
+  &.trans-color{
+    position: absolute;
+  }
+  /*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.1 STYLE CSS FOR HEADER
+     2.1.1 STICKY MENU
+--------------------------------*/
+  &.sticky {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: $white-base !important;
+    .top-header{
+      padding: 14px 0;
+      -webkit-box-shadow: 0 1px 3px rgba($gray-light, 0.2);
+      -moz-box-shadow: 0 1px 3px rgba($gray-light, 0.2);
+      box-shadow: 0 1px 3px rgba($gray-light, 0.2);
+    }
+    .avatar{
+      color: $blue-base;
+    }
+    a{
+      font-weight: 400 !important;
+    }
+  }
+  &.standard-menu{
+    background:  rgba(0, 0, 0, 0.1);
+  }
+  &.not-page-home{
+    .avatar{
+      color: $blue-base;
+    }
+  }
+  /*---------------------------
+ 2.CUSTOM CSS FOR ALL PAGES
+   2.1 STYLE CSS FOR HEADER
+     2.1.2 POPUP MENU SEARCH
+--------------------------------*/
+  .btn-menu-call li{
+    display:inline-block;
+    margin-right:40px;
+    a{
+      color: $white-base;
+      font-size: $font-size-base;
+      letter-spacing: 1.3px;
+      font-weight: 400;
+    }
+    .trigger-menu i,.trigger-search i{
+      font-size: 16px;
+      color: $white-base;
+      display:inline-block;
+      margin-right: 13px;
+    }
+  }
+  /*---------------------------
+ 2.CUSTOM CSS FOR ALL PAGES
+   2.1 STYLE CSS FOR HEADER
+     2.1.3 LINK LOGIN FORM
+--------------------------------*/
+  .login-form-header-wrapper{
+    position: absolute;
+    right: 0;
+    .non-login {
+      min-width: 160px;
+      margin-top: 11px;
+    }
+    a{
+      font-size:14px;
+      color:$white-base;
+      line-height: 22px;
+      letter-spacing: 1.3px;
+      font-weight: 400;
+      &.register.register-btn{
+        display:inline-block;
+        -moz-border-radius: $border-radius-base;
+        -webkit-border-radius: $border-radius-base;
+        border-radius: $border-radius-base;
+        vertical-align:middle;
+        border:1px solid $white-base;
+        padding: 0px 12px;
+        margin-left: 25px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+.top-header{
+  display:block;
+  padding:14px 0;
+  background-color: $white-base;
+  -moz-box-shadow: 0 1px 0 rgba($gray-lighter,1);
+  -webkit-box-shadow: 0 1px 0 rgba($gray-lighter,1);
+  box-shadow: 0 1px 0 rgba($gray-lighter,1);
+  position:relative;
+  z-index:15;
+  .dropdown-menu{
+    min-width: 214px;
+    top: 1% !important;
+    a{
+      color: $gray-base !important;
+    }
+  }
+  .open{
+    .avatar, .caret{
+      color: $gray-base !important;
+    }
+  }
+}
+body.admin-bar #header-wrapper.standard-menu .top-header {
+  padding-top: 32px;
+}
+body.admin-bar #header-wrapper.trans-color .top-header,
+body.admin-bar #header-wrapper.sticky .top-header {
+  padding-top: 46px;
+}
+
+.circle-new{
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background: $orange-base;
+  left: 44px;
+  border-radius: 50%;
+  color: $white-base;
+  text-align: center;
+  font-size: 7px;
+  z-index: 999999;
+}
+/*---------------------------
+ 2.CUSTOM CSS FOR ALL PAGES
+   2.1 STYLE CSS FOR HEADER
+    2.1.1 STANDARDMENU
+--------------------------------*/
+#standardmenu,
+#standardmenu ul,
+#standardmenu ul li,
+#standardmenu ul li a,
+#standardmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#standardmenu:after,
+#standardmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#standardmenu{
+  line-height: 1;
+  display: inline-block;
+  text-align: right;
+  #menu-button{
+    display: none;
+  }
+  ul{
+    &.sub-menu{
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      z-index: 90;
+    }
+    > li{
+      display: inline-block;
+      > a{
+        padding: 20px;
+        font-size: $font-size-base;
+        text-transform:uppercase;
+        text-decoration: none;
+        color: $white-base;
+        -webkit-transition: color .2s ease;
+        -moz-transition: color .2s ease;
+        -ms-transition: color .2s ease;
+        -o-transition: color .2s ease;
+        transition: color .2s ease;
+      }
+      &.menu-item-has-children{
+        > a{
+          padding-right: 25px;
+          &:after{
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: 10px;
+            vertical-align: middle;
+            border-top: 4px solid;
+            border-right: 4px solid transparent;
+            border-left: 4px solid transparent;
+            content: "";
+          }
+        }
+        &:hover{
+          >ul{
+            left: 20px;
+            .sub-menu{
+              li:hover{
+                > ul{
+                  left: 2px;
+                  top: 9px;
+                }
+              }
+            }
+          }
+        }
+      }
+      &:hover{
+        > ul{
+          >li{
+            height: 35px;
+            border-bottom: 1px solid #e5e5e5;
+            text-align: left;
+            :last-child{
+              border: none;
+            }
+          }
+        }
+      }
+    }
+    ul{
+      position: absolute;
+      left: -9999px;
+      li{
+        height: 0;
+        -webkit-transition: height .2s ease;
+        -moz-transition: height .2s ease;
+        -ms-transition: height .2s ease;
+        -o-transition: height .2s ease;
+        transition: height .2s ease;
+        a{
+          padding: 10px;
+          width: 200px;
+          font-size: 14px;
+          background: $white-base;
+          text-decoration: none;
+          color: $gray-light;
+          -webkit-transition: color .2s ease;
+          -moz-transition: color .2s ease;
+          -ms-transition: color .2s ease;
+          -o-transition: color .2s ease;
+          transition: color .2s ease;
+          font-weight: 400;
+          &:hover{
+            color: #dd6851;
+          }
+          &.menu-item-has-children{
+            > a:after{
+              position: absolute;
+              top: 15px;
+              right: 10px;
+              width: 5px;
+              height: 5px;
+              border-bottom: 1px solid #dddddd;
+              border-right: 1px solid #dddddd;
+              content: "";
+              -webkit-transform: rotate(-45deg);
+              -moz-transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+              -o-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+              -webkit-transition: border-color 0.2s ease;
+              -moz-transition: border-color 0.2s ease;
+              -ms-transition: border-color 0.2s ease;
+              -o-transition: border-color 0.2s ease;
+              transition: border-color 0.2s ease;
+            }
+          }
+        }
+      }
+      ul{
+        margin-left: 100%;
+        top: 0;
+      }
+    }
+  }
+  .align-center{
+    > ul{
+      font-size: 0;
+      text-align: center;
+      > li{
+        display: inline-block;
+        float: none;
+      }
+      ul{
+        text-align: left;
+      }
+    }
+  }
+  .align-right{
+    ul{
+      li{
+        float: right;
+        &:hover{
+          > ul{
+            right: 0;
+          }
+        }
+      }
+      ul{
+        text-align: right;
+        ul{
+          margin-left: 0;
+          margin-right: 100%;
+        }
+        li{
+          &.menu-item-has-children{
+            >a:after{
+              right: auto;
+              left: 10px;
+              border-bottom: 0;
+              border-right: 0;
+              border-top: 1px solid #dddddd;
+              border-left: 1px solid #dddddd;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.btn-menu-call {
+  display: inline-block;
+  margin: 15px 0 !important;
+}
+#menu-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #009ae1;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+.not-page-home #standardmenu > ul > li > a,
+.sticky #standardmenu > ul > li> a {
+  color: $blue-base;
+}
+.not-page-home #standardmenu > ul > li.current-menu-item > a,
+.sticky #standardmenu > ul > li.current-menu-item  > a {
+  color: #bf392b;
+}
+
+/*---------------------------
+ 2.CUSTOM CSS FOR ALL PAGES
+   2.1 STYLE CSS FOR HEADER
+    2.1.1 FULLMENU
+--------------------------------*/
+#header-wrapper.sticky .btn-menu-call li a,
+#header-wrapper.sticky .btn-menu-call li .trigger-menu i,
+#header-wrapper.sticky .btn-menu-call li .trigger-search i,
+#header-wrapper.sticky .dropdown-info-acc-wrapper .avatar-and-name,
+#header-wrapper.sticky .login-form-header-wrapper a,
+#header-wrapper.not-page-home .btn-menu-call li a,
+#header-wrapper.not-page-home .btn-menu-call li .trigger-menu i,
+#header-wrapper.not-page-home .btn-menu-call li .trigger-search i,
+#header-wrapper.not-page-home .login-form-header-wrapper a,
+#header-wrapper.not-page-home .dropdown-info-acc-wrapper .avatar-and-name{
+  color: $blue-base;
+}
+#header-wrapper.not-page-home .login-form-header-wrapper a.register.register-btn, #header-wrapper.sticky .login-form-header-wrapper a.register.register-btn{
+  border:1px solid $blue-base;
+}
+#header-wrapper.not-page-home .dropdown-info-acc-wrapper .caret, #header-wrapper.sticky .dropdown-info-acc-wrapper .caret{
+  border-top: 4px solid $blue-base;
+}
+#header-wrapper.not-page-home .login-form-header-wrapper a:hover{
+  color:#e74c3c;
+  border-color:#e74c3c !important;
+}
+body.admin-bar {
+  .search-fullscreen {
+    margin-top: 35px;
+  }
+}
+.menu-fullscreen, .search-fullscreen, .notification-fullscreen{
+  display:none;
+}
+
+@media (max-width: 991px) {
+  body.admin-bar #header-wrapper.standard-menu .top-header {
+    padding-top: 46px;
+  }
+
+  body.admin-bar #header-wrapper.trans-color .top-header,
+  body.admin-bar #header-wrapper.sticky .top-header {
+    padding-top: 60px;
+  }
+}

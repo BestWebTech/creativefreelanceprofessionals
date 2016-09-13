@@ -1,0 +1,331 @@
+# Translation of Twenty Sixteen in Hindi
+# This file is distributed under the same license as the Twenty Sixteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-23 06:27:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Twenty Sixteen\n"
+
+#. Description of the plugin/theme
+msgid "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "बीस सोलह अब तक के सभी लोकप्रिय वर्डप्रेस लेआउट का एक आधुनिक अनुक्रम है — एक वैकल्पिक दाहिने साइडबार के साथ क्षैतिज(हॉरिजॉन्टल) मास्टहेड जो ब्लॉग्स और वेबसाइटों के लिए सम्पूर्ण रूप से कार्य करता है। इसमें सुंदर डिफ़ॉल्ट रंग योजनाओं, मोबाइल-प्रथम दृष्टिकोण का उपयोग कर सामंजस्यपूर्ण द्रव्य ग्रिड, और हर विस्तार में त्रुटिहीन पॉलिश के साथ कस्टम रंग विकल्प उपलब्ध हैं। बीस सोलह आपके वर्डप्रेस को हर जगह सुंदर प्रदर्शित कराएगा।"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Sixteen"
+msgstr "बीस सोलह"
+
+#. translators: %s: Name of current post
+#: image.php:84 template-parts/content-page.php:37
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:45 template-parts/content.php:49
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "संपादित करें<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:184 template-parts/content.php:28
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "पढ़ना जारी रखें<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/customizer.php:283
+msgid "Red"
+msgstr "लाल"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; पर एक विचार"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "खोज"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "खोज &hellip;"
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr "खोजे "
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "पाद प्राथमिक मेनू"
+
+#: footer.php:28
+msgid "Footer Social Links Menu"
+msgstr "पाद सोशल लिंक मेनू"
+
+#: functions.php:158
+msgid "Add widgets here to appear in your sidebar."
+msgstr "अपने साइडबार में प्रदर्शित करने के लिए यहां विजेट जोड़ें।"
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "विशेष रुप से प्रदर्शित"
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "ऐसा प्रतीत होता है कि हम वह नहीं ढूंढ पाए जिसके लिए आप खोज रहे हैं। शायद खोजना मदद कर सके।"
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "क्षमा करें, लेकिन आपके खोज शब्दों से कुछ भी नहीं मेल हुआ। कृपया कुछ अलग खोजशब्दों के साथ पुन: प्रयास करें।"
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "अपनी पहली पोस्ट प्रकाशित करने के लिए तैयार हैं? <a href=\"%1$s\"> यहाँ से प्रारंभ करें</a>।"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "कुछ नहीं मिला"
+
+#: template-parts/biography.php:33
+msgid "View all posts by %s"
+msgstr "%s के द्वारा सभी गद्य देखें"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "लेखक:"
+
+#: single.php:38
+msgid "Previous post:"
+msgstr "पिछला पोस्ट:"
+
+#: single.php:35
+msgid "Next post:"
+msgstr "अगला पोस्ट:"
+
+#: single.php:37
+msgid "Previous"
+msgstr "पिछला"
+
+#: single.php:34
+msgid "Next"
+msgstr "अगला"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr " %s : के खोज परिणाम"
+
+#: inc/template-tags.php:106
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "टैग्स"
+
+#: inc/template-tags.php:98
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "श्रेणिया"
+
+#: inc/template-tags.php:95 inc/template-tags.php:103
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ",  "
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "प्रकाशित"
+
+#: inc/template-tags.php:38
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "प्रारूप"
+
+#: inc/template-tags.php:50
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s पर एक टिप्पणी छोड़ें</span>"
+
+#: inc/template-tags.php:25
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "लेखक"
+
+#: inc/customizer.php:293
+msgid "Yellow"
+msgstr "पीला"
+
+#: inc/customizer.php:273
+msgid "Gray"
+msgstr "भूरा"
+
+#: inc/customizer.php:263
+msgid "Dark"
+msgstr ""
+"\t\n"
+"काला"
+
+#: inc/customizer.php:253
+msgid "Default"
+msgstr "डिफ़ॉल्ट"
+
+#: inc/customizer.php:172
+msgid "Main Text Color"
+msgstr "मुख्य टेक्स्ट रंग"
+
+#: inc/customizer.php:184
+msgid "Secondary Text Color"
+msgstr "सेकेंडरी टेक्स्ट रंग"
+
+#: inc/customizer.php:145
+msgid "Page Background Color"
+msgstr "पृष्ठ पृष्ठभूमि रंग"
+
+#: inc/customizer.php:160
+msgid "Link Color"
+msgstr "लिंक का रंग"
+
+#: image.php:102 single.php:29
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">में प्रकाशित</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "बीस सोलह के लिए कम से कम वर्डप्रेस संस्करण 4.4 की आवश्यकता है। आप संस्करण %s उपयोग कर रहे हैं। उन्नयन करे और फिर कोशिश करें।"
+
+#: inc/customizer.php:130
+msgid "Base Color Scheme"
+msgstr "मूल रंग स्कीम"
+
+#: image.php:73
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "पूर्ण आकार"
+
+#: image.php:56 template-parts/content-page.php:23
+#: template-parts/content-single.php:25 template-parts/content.php:33
+msgid "Pages:"
+msgstr "पृष्ठे:"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "अगला चित्र"
+
+#: image.php:24
+msgid "Previous Image"
+msgstr "पिछ्ली छवि"
+
+#: header.php:47
+msgid "Menu"
+msgstr "मेनू"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "सामग्री पर जाएं"
+
+#: functions.php:285
+msgid "collapse child menu"
+msgstr "चाइल्ड मेनू संक्षिप्त करें "
+
+#: functions.php:284
+msgid "expand child menu"
+msgstr "चाइल्ड मेनू विस्तृत करे"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:208
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:203
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:166
+msgid "Content Bottom 1"
+msgstr "सामग्री निचला भाग 1"
+
+#: functions.php:176
+msgid "Content Bottom 2"
+msgstr "सामग्री निचला भाग 2"
+
+#: functions.php:168 functions.php:178
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "पोस्ट और पेज पर सामग्री के तल पर दिखाई देता है।"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:213
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:156
+msgid "Sidebar"
+msgstr "साइडबार"
+
+#: functions.php:89 header.php:62
+msgid "Social Links Menu"
+msgstr "सामाजिक कड़ी सूचि"
+
+#: functions.php:88 header.php:51
+msgid "Primary Menu"
+msgstr "प्राथमिक सूचि"
+
+#: footer.php:51
+msgid "Proudly powered by %s"
+msgstr "गर्व से %s द्वारा संचालित"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "टिप्पणिया बंद कर दी गयी है।"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; पर एक विचार"
+msgstr[1] "&ldquo;%2$s&rdquo; पर %1$s विचार "
+
+#: archive.php:51 image.php:60 index.php:48 search.php:39
+#: template-parts/content-page.php:27 template-parts/content-single.php:29
+#: template-parts/content.php:37
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: archive.php:50 index.php:47 search.php:38
+msgid "Next page"
+msgstr "अगला पृष्ठ"
+
+#: archive.php:49 index.php:46 search.php:37
+msgid "Previous page"
+msgstr "पिछला पृष्ठ"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ऐसा लगता है कि इस एड्रेस पर कुछ नहीं था। कृपया दोबारा खोजने का प्रयास करें?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "क्षमा! वह पृष्ठ नहीं मिला।"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "वर्डप्रेस समूह"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentysixteen/"
+msgstr "https://wordpress.org/themes/twentysixteen/"
+
+#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:51
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

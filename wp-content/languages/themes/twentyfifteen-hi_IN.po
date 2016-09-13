@@ -1,0 +1,306 @@
+# Translation of Twenty Fifteen in Hindi
+# This file is distributed under the same license as the Twenty Fifteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-11 20:36:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Twenty Fifteen\n"
+
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s पर एक टिप्पणी छोड़ें</span>"
+
+#: single.php:37
+msgid "Previous post:"
+msgstr "पिछला पोस्ट:"
+
+#: single.php:34
+msgid "Next post:"
+msgstr "अगला पोस्ट:"
+
+#: single.php:36
+msgid "Previous"
+msgstr "पिछला"
+
+#: single.php:33
+msgid "Next"
+msgstr "अगला"
+
+#: inc/template-tags.php:91 inc/template-tags.php:99
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ",  "
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr "टिप्पणी नेविगेशन"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "टिप्पणिया बंद कर दी गयी है"
+
+#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
+msgid "Pages:"
+msgstr "पृष्ठ:"
+
+#: content-link.php:56 content-page.php:35 content-search.php:28
+#: content-search.php:33 content.php:57 image.php:71
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "सामग्री पर जाएं"
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "कुछ भी नहीं मिला"
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "अपनी पहली पोस्ट प्रकाशित करने के लिए तैयार हैं? <a href=\"%1$s\"> यहाँ से प्रारंभ करें</a>."
+
+#: content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "क्षमा करें, लेकिन आपके खोज शब्दों का कुछ भी मिलान नहीं हुआ.कुछ अलग खोजशब्दों के साथ पुन: प्रयास करें."
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "%s :के लिए खोज परिणाम"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "वर्डप्रेस समूह"
+
+#: archive.php:50 index.php:47 search.php:39
+msgid "Next page"
+msgstr "अगला पृष्ठ"
+
+#: archive.php:49 index.php:46 search.php:38
+msgid "Previous page"
+msgstr "पिछला पृष्ठ"
+
+#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
+#: image.php:63 index.php:48 search.php:40
+msgid "Page"
+msgstr "पृष्ठ"
+
+#. translators: %s: Name of current post
+#: content-link.php:31 content.php:33 inc/template-tags.php:238
+msgid "Continue reading %s"
+msgstr "पढ़ना जारी रखे %s"
+
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:25
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: inc/customizer.php:147
+msgid "Blue"
+msgstr "नीला"
+
+#: inc/customizer.php:136
+msgid "Purple"
+msgstr "बैंगनी"
+
+#: inc/customizer.php:125
+msgid "Pink"
+msgstr "गुलाबी"
+
+#: inc/customizer.php:103
+msgid "Dark"
+msgstr ""
+"\t\n"
+"काला"
+
+#: inc/customizer.php:114
+msgid "Yellow"
+msgstr "पीला"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Fifteen"
+msgstr "बीस पंद्रह"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "टैग्स"
+
+#: inc/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "लेखक"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "श्रेणिया"
+
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "प्रकाशित"
+
+#: inc/template-tags.php:26
+msgid "Older Comments"
+msgstr "पुरानी टिप्पणिया"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "नई टिप्पणिया"
+
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "प्रारूप"
+
+#: inc/template-tags.php:113
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "पूर्ण आकार"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "द्वारा प्रकाशित"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "विशेष रुप से प्रदर्शित"
+
+#. Description of the plugin/theme
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "हमारी 2015 की वितथ रूपरंग (डिफ़ॉल्ट थीम) स्वच्छ एवं दैनिकी-केन्द्रित (ब्लॉग-केन्द्रित) है तथा शुद्धता हेतु बनाई गई है| बीस पन्द्रह कि सीधी मुद्रणकला विभिन्न आकर-प्रकार के चित्रपटों तथा बहुधा भाषाओँ में आसानी से पढ़ी जा सकती है| हमने इसे हस्तगत-यंत्र-प्रथम (मोबाइल-प्रथम) पद्धति का पालन करते हुए बनाया है जिसका मतलब है कि विषयवस्तु (कंटेंट) अह्म स्थान लेगा बावजूद इसके कि आपके आगंतुक गणक यंत्र (कंप्यूटर), छोटा गणक यंत्र (लैपटॉप), पटलिका (टेबलेट) या कुशल दूरभाष (स्मार्टफ़ोन) का प्रयोग करते हैं|"
+
+#: inc/customizer.php:92
+msgid "Default"
+msgstr "वितथ"
+
+#: inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr "शीर्ष और शलाका पृष्ठभूमि रंग"
+
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "शीर्ष और शलाका का आलेख रंग"
+
+#: image.php:24
+msgid "Previous Image"
+msgstr "पिछ्ली छवि"
+
+#: header.php:43
+msgid "Menu and widgets"
+msgstr "सूचि और यंत्र (विजेट)"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:185
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "उपवर्ग नहीं"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:177
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "आरम्भ"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:161
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "आरम्भ"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:169
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "आरम्भ"
+
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "गर्व से %s द्वारा संचालित "
+
+#: content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "ऐसा प्रतीत होता है कि हम वह नहीं ढूंढ पाए जिसके लिए आप देख रहे हैं| शायद खोजना मदद कर सके| "
+
+#: functions.php:133
+msgid "Widget Area"
+msgstr "यंत्र क्षेत्र"
+
+#: functions.php:85
+msgid "Primary Menu"
+msgstr "प्राथमिक सूचि"
+
+#: functions.php:86
+msgid "Social Links Menu"
+msgstr "सामाजिक कड़ी सूचि"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; पर एक विचार"
+msgstr[1] "&ldquo;%2$s&rdquo; पर %1$s विचार "
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "%s के द्वारा सभी गद्य देखें"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "यहाँ कुछ नहीं मिला| खोजने की कोशिश करे?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "क्षमा! वह पृष्ठ नहीं मिला| "
+
+#: image.php:24
+msgid "Next Image"
+msgstr "अगला चित्र"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"
+
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "छोटे चित्रपटों के शीर्ष पर तथा चौड़े चित्रपटों के साइडबार पर प्रयोग होगा."
+
+#: functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr "साइडबार में विजेट को दिखने के लिए यहाँ लगायें."
+
+#: inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr "बेस कलर स्कीम"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "बीस पंद्रह को कम से कम वर्डप्रेस संस्करण 4.1 चाहिए. आप %s संस्करण चला रहे हैं. अपग्रेड करे और पुनः प्रयास करे."
+
+#: functions.php:255
+msgid "expand child menu"
+msgstr "चाइल्ड मेनू का विस्तार करे"
+
+#: functions.php:256
+msgid "collapse child menu"
+msgstr "चाइल्ड मेनू को संक्षिप्त करें"
+
+#: image.php:84
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">में प्रकाशित</span><span class=\"post-title\">%title</span>"

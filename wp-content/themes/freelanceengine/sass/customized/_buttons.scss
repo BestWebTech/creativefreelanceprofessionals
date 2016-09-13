@@ -1,0 +1,91 @@
+.btn-sumary {
+    padding: 10px 20px;
+    font-size: $font-size-base;
+    border-radius: $border-radius-base;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: $white-base;
+    letter-spacing: 1.5px;
+    border:none;
+    a:hover{
+      color: $white-base;
+    }
+    &:hover {
+      opacity: .9;
+      color: $white-base;
+    }
+}
+.box-shadow-button-orange{
+    box-shadow: 0 2px 0 $orange-darker-base;
+    -webkit-box-shadow: 0 2px 0 $orange-darker-base;
+    -moz-box-shadow: 0 2px 0 $orange-darker-base;
+    -ms-box-shadow: 0 2px 0 $orange-darker-base;
+}
+.box-shadow-button-blue{
+    box-shadow: 0 2px 0 $blue-dark-base;
+    -webkit-box-shadow: 0 2px 0 $blue-dark-base;
+    -moz-box-shadow: 0 2px 0 $blue-dark-base;
+    -ms-box-shadow: 0 2px 0 $blue-dark-base;
+}
+.box-shadow-button-green{
+    box-shadow: 0 2px 0 $green-dark-base;
+    -webkit-box-shadow: 0 2px 0 $green-dark-base;
+    -moz-box-shadow: 0 2px 0 $green-dark-base;
+    -ms-box-shadow: 0 2px 0 $green-dark-base;
+}
+.box-shadow-button-dark-blue{
+    box-shadow: 0 2px 0 $dark-blue-base;
+    -webkit-box-shadow: 0 2px 0 $dark-blue-base;
+    -moz-box-shadow: 0 2px 0 $dark-blue-base;
+    -ms-box-shadow: 0 2px 0 $dark-blue-base;
+}
+.btn-sub-post, .btn-price{
+    background-color: $blue-base;
+}
+.btn-post-profile{
+    position:absolute !important;
+    right:0px;
+    top:10px;
+    background-color: $green-base;
+    -moz-box-shadow: 0 2px 0 $green-dark-base;
+    -webkit-box-shadow: 0 2px 0 $green-dark-base;
+    box-shadow: 0 2px 0 $green-dark-base;
+    padding: 9px 25px;
+    color: $white-base;
+    z-index: 9;
+}
+.btn-apply-project{
+    padding: 7px 25px;
+    background-color: $orange-base;
+    -moz-box-shadow: 0 2px 0 $orange-darker-base;
+    -webkit-box-shadow: 0 2px 0 $orange-darker-base;
+    box-shadow: 0 2px 0 $orange-darker-base;
+    font-weight: 400;
+}
+.btn-apply-project-item,
+.btn-view-profile,
+.btn-excecute-project,
+.btn-refund-project{
+    -moz-border-radius: $border-radius-base;
+    -webkit-border-radius: $border-radius-base;
+    border-radius: $border-radius-base;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: $orange-base;
+    -moz-box-shadow: 0 2px 0 $orange-darker-base;
+    -webkit-box-shadow: 0 2px 0 $orange-darker-base;
+    box-shadow: 0 2px 0 $orange-darker-base;
+    color: $white-base;
+    font-size: $font-size-base;
+    font-weight: 300;
+    padding: 5px 18px;
+    float:right;
+    letter-spacing: 1.1px;
+}

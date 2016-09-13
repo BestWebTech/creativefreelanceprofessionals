@@ -1,0 +1,24 @@
+/* Basic */
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.ilen_clearfix{
+  clear: both;
+  display: block;
+  width: 100%;
+}
+.padding_left_0{
+  padding-left: 0!important;
+}
+
+
+/* Other class */
+.stuffbox .handlediv{
+  height: 8px;
+}
+.stuffbox .hndle{
+  padding-top: 0!important;
+}

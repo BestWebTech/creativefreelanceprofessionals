@@ -1,0 +1,461 @@
+.modal-backdrop {
+  background-color: $blue-base !important;
+  &.in{
+    opacity: .9 !important;
+    filter: alpha(opacity=90) !important;
+  }
+}
+.modal-dialog{
+  max-width: 548px;
+}
+.modal{
+  padding-top: 5%;
+}
+.modal-header {
+  padding: 20px 35px 10px;
+  border: none;
+  .close{
+    position: absolute;
+    top:20px;
+    right:20px;
+    color: #ccc;
+    font-size: 20px;
+    opacity: 1;
+  }
+  .modal-title {
+    color: $blue-base;
+    font-weight: bold;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .small-modal-title{
+    font-size: 20px;
+  }
+}
+.modal-content{
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: $white-base;
+  -moz-box-shadow:  0 1px 1px rgba($gray-light,.2);
+  -webkit-box-shadow:  0 1px 1px rgba($gray-light,.2);
+  box-shadow:  0 1px 1px rgba($gray-light,.2);
+  border:none;
+}
+.modal-body {
+  padding: 10px 35px 20px;
+  form{
+    label{
+      color: #737c85;
+      font-size: $font-size-base;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    input[type="text"],input[type="number"],input[type="password"],input[type="email"],select{
+      width: 330px;
+      border: 1px solid #d7d9da;
+      color: #737c85;
+      margin-bottom: 30px;
+      height: 45px;
+      padding: 0 15px;
+      border-radius: $border-radius-base;
+      -webkit-border-radius: $border-radius-base;
+      -moz-border-radius: $border-radius-base;
+      -ms-border-radius: $border-radius-base;
+      font-weight: 300;
+      &::-webkit-input-placeholder {
+        font-weight:300;
+        color: $blue-base;
+      }
+      &::-moz-placeholder {
+        font-weight:300;
+        color: $blue-base;
+      }
+      &:-moz-placeholder {
+        font-weight:300;
+        color: $blue-base;
+      }
+      &:-ms-input-placeholder{
+        font-weight:300;
+        color: $blue-base;
+      }
+    }
+  }
+}
+.show-forgot-form{
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 15px;
+  font-weight: 300;
+}
+.socials-head {
+  color: $blue-base;
+  font-size: 20px;
+  margin-top: 55px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: 1.2;
+}
+ul.list-social-login{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+  li{
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    a{
+      display: block;
+      min-width: 110px;
+      height: 32px;
+      color: $white-base;
+      font-size: $font-size-base;
+      line-height: 2.3;
+      border-radius: $border-radius-base;
+      -moz-border-radius: $border-radius-base;
+      -webkit-border-radius: $border-radius-base;
+      -ms-border-radius: $border-radius-base;
+      font-weight: 300;
+      position: relative;
+      text-align: center;
+      &.fb{
+        background: #5d82d1;
+      }
+      &.tw{
+        background: #40bff5;
+      }
+      &.gplus{
+        background: #eb5e4c;
+      }
+      &.lkin{
+        background:#0369A0;
+      }
+      i{
+        font-size: 20px;
+        float: left;
+        line-height: 32px;
+        margin-left: 10px;
+        position: absolute;
+        left: 0;
+      }
+      .social-text{
+        padding-left: 15px;
+      }
+    }
+  }
+}
+.wp-editor-wrap {
+  width : 100%;
+  border: 1px solid #e5e7e9;
+}
+.auth-form {
+  margin: 10px auto;
+  max-width: 600px;
+}
+.btn-sub-create{
+  background-color: $orange-base;
+  padding: 13px 60px;
+  -moz-box-shadow: 0 2px 0 $orange-darker-base;
+  -webkit-box-shadow: 0 2px 0 $orange-darker-base;
+  box-shadow: 0 2px 0 $orange-darker-base;
+  font-weight: 400;
+
+}
+/*---------------------------
+  3.CUSTOMIZED BOOTSTRAP FOR PAGE
+    3.1 MODAL FOR REGISTER
+--------------------------------*/
+#modal_register{
+  .modal-body{
+    padding-top: 0;
+    p.user-type .switchery{
+      margin: 0 0 20px 35px;
+    }
+    p.user-type .user-text{
+      position: relative;
+      bottom: 8px;
+    }
+    .socials-head{
+      margin-top: 25px;
+    }
+    p.text-term {
+      display: inline-block;
+      vertical-align: middle;
+      width: 50%;
+      margin: 0;
+      margin-left: 10px;
+      font-size: $font-size-small;
+      line-height: 20px;
+      font-weight: 400;
+    }
+  }
+}
+/*---------------------------
+  3.CUSTOMIZED BOOTSTRAP FOR PAGE
+    3.2 MODAL FOR CHANGE PASS
+--------------------------------*/
+#modal_change_pass{
+  .btn-change-pass{
+    padding: 13px 20px;
+  }
+}
+/*---------------------------
+  3.CUSTOMIZED BOOTSTRAP FOR PAGE
+    3.3 MODAL FOR INVITE
+--------------------------------*/
+#modal_invite{
+  .modal-header{
+    border-bottom: 1px solid #f4f6f8;
+    padding-bottom: 20px;
+    .modal-title{
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  .invites-list p{
+    border-bottom: 1px solid #f4f6f8;
+    height: 65px;
+    font-size: 14px;
+    color: #30363c;
+    line-height: 61px;
+    margin: 0;
+    input[type="checkbox"]{
+      margin-right: 13px;
+      position: relative;
+      top: 4px;
+      width: 25px;
+      height: 15px;
+      cursor: pointer;
+    }
+    .project-price{
+      float: right;
+      font-weight: bold;
+      color: $blue-base;
+    }
+  }
+  .invites-list {
+    margin-bottom: 30px;
+    width: 100%;
+    label{
+      font-weight: 400 !important;
+      color: #30363c;
+    }
+  }
+  .modal-body{
+    padding-top: 0;
+    padding-bottom: 25px;
+  }
+}
+/*---------------------------
+  3.CUSTOMIZED BOOTSTRAP FOR PAGE
+    3.4 MODAL FOR PORTFOLIO
+--------------------------------*/
+#modal_add_portfolio{
+  .modal-header{
+    .modal-title{
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  .modal-body{
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+  #portfolio_img_container{
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    border: 3px dashed #eceff1;
+    margin-bottom: 25px;
+    height: 235px;
+    color: #737c85;
+    p{
+      &.add-file{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+      &.drag-drop{
+        font-size: $font-size-base;
+        font-weight: 400;
+      }
+    }
+    form{
+      #create_portfolio{
+        input{
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .btn-browse{
+      border: 1px solid #d7d9da !important;
+      border-radius: $border-radius-base;
+      font-weight: 300;
+      color: #737c85;
+      padding: 5px 15px;
+    }
+  }
+  .btn-add-portfolio{
+    margin-top: 15px;
+  }
+}
+/*---------------------------
+  3.CUSTOMIZED BOOTSTRAP FOR PAGE
+    3.4 MODAL FOR NOTIFICATION
+--------------------------------*/
+#notification_container{
+  li{
+    background: $white-base;
+    padding: 10px 10px 10px 20px;
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: $font-size-base;
+    font-weight: 400;
+    color: #30363c;
+    a{
+      color: #3498db;
+      &.action{
+        display: inline-block;
+        margin-left: 5px;
+        position: relative;
+        top: 1px;
+      }
+    }
+    .notication-time{
+      color: #666f78;
+      font-weight: 300;
+    }
+  }
+  ul.notification-list{
+    padding: 0;
+  }
+  .notification-header{
+    color: $white-base;
+    margin-left: 50px;
+    font-size: 22px;
+    margin-bottom: 90px;
+    font-weight: 300;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 5px;
+  }
+  .name{
+    display: inline-block;
+    color: #2c3d4f;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .position-employer{
+    display: block;
+    color: #2dcb71;
+  }
+  .profile{
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    min-width: 120px;
+    padding-right: 60px;
+  }
+  .avatar-employer-notification, .avatar-notification{
+    display: inline-block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+  }
+  .avatar-freelancer-notification{
+    display: inline-block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 45px;
+    width: 45px;
+    vertical-align: middle;
+  }
+  .paginations-wrapper a{
+    font-size: 14px;
+  }
+}
+.info-bid{
+  display: inline-block;
+  width: 130px;
+}
+.bid-currency{
+  font-size: $font-size-large;
+  i{
+    padding-left: 10px;
+  }
+}
+.notify-bid{
+  margin-top: 20px;
+}
+#modal_review{
+  .label-text{
+    font-weight: 400;
+  }
+  .btn.btn-ok {
+    background-color: $green-base;
+    -moz-box-shadow: 0 2px 0 $green-dark-base;
+    -webkit-box-shadow: 0 2px 0 $green-dark-base;
+    box-shadow: 0 2px 0 $green-dark-base;
+    padding: 10px 40px;
+    color: $white-base;
+    z-index: 9;
+    font-weight: 500;
+  }
+}
+/*---------------------------
+  3.CUSTOMIZED BOOTSTRAP FOR PAGE
+    3.4 MODAL FOR EDIT PROJECT
+--------------------------------*/
+#modal_edit_project{
+  ul.skills-list{
+    padding-left: 0;
+  }
+  .skills-list li{
+    display: inline-block;
+    padding: 3px 12px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #f1f5f7;
+    margin-right:15px;
+    margin-bottom:10px;
+    i{
+      display:inline-block;
+      margin-left:10px;
+      color: #656f77;
+    }
+    .text-ellipsis{
+      max-width: 75px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+/*
+    Fixbug WP 4.5
+ */
+.modal-open-link {
+  overflow: hidden;
+}
+.modal-open-link .modal {
+ overflow-x: hidden;
+ overflow-y: auto;
+}
+.datepicker.dropdown-menu {
+  z-index: 10000;
+}

@@ -1,0 +1,54 @@
+html, button, input, select, textarea {
+  color: #5d5f5e;
+}
+body {
+  font-size: $font-size-base;
+  line-height: 1.4;
+  font-family: 'Raleway', sans-serif;
+  color: #5d5f5e;
+  background: #f2f5f7;
+  font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+a, a:hover, a:focus{
+  color: $blue-light-base;
+  text-decoration: none;
+  outline: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+  border: 1px solid #d7d9da;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: black;
+  padding: 0.2em 0;
+}
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+select {
+  min-height: 25px;
+  border: 1px solid #d7d9da;
+  color: #bdc3c7;
+}

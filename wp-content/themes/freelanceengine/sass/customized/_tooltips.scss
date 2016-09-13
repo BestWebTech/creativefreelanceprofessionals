@@ -1,0 +1,22 @@
+.tooltips{
+    margin: 20px 10px 0;
+    display: inline-block;
+    button{
+        background: $blue-base;
+        color: $white-base;
+    }
+    a{
+        color: $blue-base;
+        &:hover{
+            color: $blue-base !important;
+        }
+    }
+    .tooltip-inner{
+        background-color: $blue-base;
+        border-radius: $border-radius-base;
+        padding: 10px 5px;
+    }
+    .tooltip-arrow{
+        border-top: 5px solid $blue-base !important;
+    }
+}

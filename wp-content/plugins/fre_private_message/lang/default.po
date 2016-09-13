@@ -1,0 +1,334 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ae_stripe_escorw\n"
+"Report-Msgid-Bugs-To: http://www.enginethemes.com/\n"
+"POT-Creation-Date: 2015-10-28 09:30+0700\n"
+"PO-Revision-Date: 2015-10-28 09:31+0700\n"
+"Last-Translator: dakachi <david87dang@gmail.com>\n"
+"Language-Team: Engine Themes <contact@enginethemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _e;__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\mywork\\YW\\Release\\FRE_PRIVATE_MESSAGE"
+"\\fre_private_message\n"
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/ae_private_message.php:91
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/ae_private_message.php:93
+msgid ""
+"<span class=\"no-message\"><i class=\"fa fa-exclamation\"></i>You have not "
+"created any converstation yet. <br/>\n"
+"Please come back to your biders list in Project detail for starting a "
+"conversation with biders.</span>"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:140
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:150
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:191
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:220
+msgid "Your account can't send this message!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:161
+msgid "Data is empty!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:183
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:212
+msgid "Authorize successful"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:237
+msgid "This title is valid!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:244
+msgid "Please enter your message's subject!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:251
+msgid "This content is valid!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:258
+msgid "Please enter your message's content!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:325
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:341
+msgid "Please wait a few second for your next message!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:680
+#, php-format
+msgid "New private message on project %s "
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:724
+#, php-format
+msgid "%s sent you a private message %s"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:753
+msgid "There are no reply in this conversation!1"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:775
+msgid "You got replies list success!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:804
+msgid "Your message is sent successful!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:821
+msgid "Your message is updated successful!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:825
+msgid "Your message is archived successful!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:834
+#, php-format
+msgid "You have a new message from %s"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:924
+msgid "You created a reply successful!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:944
+msgid "You updated this reply successful!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:958
+msgid "You can't update this reply!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-actions.php:966
+msgid "You can't sync reply!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:108
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:109
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:119
+msgid "Private message"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:111
+msgid "Add New private message"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:112
+msgid "Edit private message"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:113
+msgid "New private message"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:114
+msgid "View private message"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:115
+msgid "Search Private messages"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:116
+msgid "No private message found"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:117
+msgid "No private message found in Trash"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/class-private-message-posttype.php:118
+msgid "Parent private message:"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/functions.php:324
+msgid "You already created a conversation for this bid!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/functions.php:334
+msgid "You hasn't created a conversation for this bid,yet!"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:13
+msgid "General setting"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:21
+msgid "Time delay between two messages"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:24
+msgid ""
+"Set time delay between two messages sent by a user to different users."
+"(millisecond)"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:31
+msgid "Time delay between two messages sent by users."
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:33
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:53
+msgid "eg:5"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:41
+msgid "Time delay between two reply"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:44
+msgid "Set time delay between two reply are sent by user.(millisecond)"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:51
+msgid "Time delay between two reply are sent by users."
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:61
+msgid "Mail Template"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:70
+msgid "Mail description here"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:71
+msgid ""
+"Email templates for new messsage. You can use placeholders to include some "
+"specific content."
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:72
+msgid "user's details you want to send mail"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:73
+msgid "member dashboard url "
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:74
+msgid "project title, link, details, author"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:75
+msgid "activate link is require for user to renew their pass"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:76
+msgid " site info, admin email"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:77
+msgid "list projects employer send to freelancer when invite him to join"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:88
+msgid "Private Message Notification Mail Template"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:92
+msgid "Send to user when he has new message."
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:99
+msgid "Private message notification Mail"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:120
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:121
+msgid "Private Message"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/settings.php:125
+msgid "Bridging the gap between Employers and Freelancers"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:39
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:50
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:83
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:117
+msgid "Send Message"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:40
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:51
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:110
+msgid "Message"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:90
+msgid "To:"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:98
+msgid "user name"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:99
+msgid "Job title"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:104
+msgid "Subject"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:106
+msgid "no subject"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:158
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:186
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:348
+msgid "Messages"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:212
+msgid "All"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:213
+msgid "UnRead"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:236
+msgid ""
+"<span class=\"no-message\"><i class=\"fa fa-exclamation\"></i>You have not "
+"created any converstation yet.<br/>\n"
+"    Please come back to your biders list in Project detail for starting a "
+"conversation with biders.</span>"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:285
+msgid "in"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:298
+msgid " Archive"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:326
+msgid "Inbox"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:340
+msgid "Project:"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:349
+msgid "-Sub:"
+msgstr ""
+
+#: D:\mywork\YW\Release\FRE_PRIVATE_MESSAGE\fre_private_message/template.php:352
+msgid "Archive"
+msgstr ""

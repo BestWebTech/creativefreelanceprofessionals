@@ -1,0 +1,120 @@
+.wrapper-input-search-top {
+  margin-bottom:30px;
+}
+.select-search-top{
+  margin:1px 0 50px 50px;
+  display:inline-block;
+  .chosen-container{
+    border:none;
+  }
+  .chosen-container-single{
+    .chosen-single{
+      background:none;
+      border:none;
+      box-shadow:none;
+      height: 30px;
+      div{
+        top:4px;
+        right:40px;
+        b{
+          background:none;
+          &:after{
+            content:"\f0d7";
+            font-family:'FontAwesome';
+            font-size:18px;
+            position:relative;
+            color:#fff;
+            z-index:999;
+          }
+        }
+      }
+      span{
+        color: $white-base;
+        font-size: 22px;
+        background: none;
+        line-height: 1.5;
+        font-weight: 200;
+      }
+    }
+  }
+  .chosen-container-active{
+    &.chosen-with-drop{
+      .chosen-single{
+        div{
+          b:after{
+            content:"\f0d8";
+            font-family:'FontAwesome';
+            font-size:18px;
+            position:relative;
+            color:#fff;
+            z-index:999;
+          }
+        }
+      }
+    }
+  }
+  .chosen-drop{
+    border:none !important;
+    margin-top:5px;
+    padding:5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: $white-base;
+    -webkit-box-shadow: 0 1px 3px rgba($gray-light, 0.2);
+    -moz-box-shadow: 0 1px 3px rgba($gray-light, 0.2);
+    box-shadow: 0 1px 3px rgba($gray-light, 0.2);
+  }
+}
+.search-fullscreen{
+  input{
+    &.field-search-top{
+      width:auto;
+      max-width:960px;
+      background:none;
+      border:none;
+      padding:5px 0;
+      color: $white-base;
+      font-size: 48px;
+      font-weight:200;
+      outline:none;
+      margin-left: 20px;
+      display:inline-block;
+      vertical-align:middle;
+      height: 70px;
+    }
+    &::-webkit-input-placeholder {
+      font-weight:200;
+      color: $white-base;
+    }
+    &::-moz-placeholder {
+      font-weight:200;
+      color: $white-base;
+    }
+    &:-moz-placeholder {
+      font-weight:200;
+      color: $white-base;
+    }
+    &:-ms-input-placeholder{
+      font-weight:200;
+      color: $white-base;
+    }
+  }
+  .search-text-press{
+    display:inline-block;
+    vertical-align:middle;
+    color:$white-base;
+    font-size:$font-size-base;
+    font-weight: 200;
+  }
+  .list-project{
+    li{
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      &.no-result{
+        background: none;
+      }
+    }
+  }
+}

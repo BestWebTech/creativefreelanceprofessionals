@@ -1,0 +1,77 @@
+/* Corrects the CSS options using jQuery-ui */
+.ilentheme-options,
+.ilentheme-options{
+  
+}
+.ilenplugin-options .ui-corner-all,
+.ilentheme-options .ui-corner-all{
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.ilenplugin-options .ui-tabs,
+.ilentheme-options .ui-tabs{
+  zoom:0;
+  padding: 0;
+}
+.ilenplugin-options .ui-widget-header,
+.ilentheme-options .ui-widget-header {
+  border: 0;
+  background: inherit;
+  color: inherit;
+  font-weight: inherit;
+}
+.ilenplugin-options .ui-widget-content,
+.ilentheme-options .ui-widget-content {
+  border: 0;
+  background: inherit;
+  color: inherit;
+}
+
+.ilenplugin-options .ui-state-active, .ilenplugin-options .ui-widget-content .ui-state-active, .ilenplugin-options .ui-widget-header .ui-state-active,
+.ilentheme-options .ui-state-active, .ilentheme-options .ui-widget-content .ui-state-active, .ilentheme-options .ui-widget-header .ui-state-active {
+  border: inherit;
+  background:inherit ;
+  font-weight: inherit;
+  color: inherit;
+}
+.ilenplugin-options .ui-state-hover, .ilenplugin-options .ui-widget-content .ui-state-hover, .ilenplugin-options .ui-widget-header .ui-state-hover, .ilenplugin-options .ui-state-focus, .ilenplugin-options  .ui-widget-content .ui-state-focus, .ilenplugin-options .ui-widget-header .ui-state-focus,
+.ilentheme-options .ui-state-hover, .ilentheme-options .ui-widget-content .ui-state-hover, .ilentheme-options .ui-widget-header .ui-state-hover, .ilentheme-options .ui-state-focus, .ilentheme-options  .ui-widget-content .ui-state-focus, .ilentheme-options .ui-widget-header .ui-state-focus {
+  border: 0;
+  background: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+.ilenplugin-options .ui-state-default,.ilenplugin-options .ui-widget-content .ui-state-default,.ilenplugin-options .ui-widget-header .ui-state-default, 
+.ilentheme-options .ui-state-default,.ilentheme-options .ui-widget-content .ui-state-default,.ilentheme-options .ui-widget-header .ui-state-default{
+  border: 0;
+  background:inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.ilenplugin-options .ui-corner-top,
+.ilentheme-options .ui-corner-top {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.ilenplugin-options .ui-tabs .ui-tabs-panel,
+.ilentheme-options .ui-tabs .ui-tabs-panel {
+  display: block;
+  border-width: 0;
+  padding: 0;
+  background: none;
+}
+.ilenplugin-options .ui-widget,
+.ilentheme-options .ui-widget{
+  font-family: inherit;
+}
+.ilenplugin-options .ui-widget input,.ilenplugin-options  .ui-widget select,.ilenplugin-options  .ui-widget textarea,.ilenplugin-options  .ui-widget button,
+.ilentheme-options .ui-widget input,.ilentheme-options  .ui-widget select,.ilentheme-options  .ui-widget textarea,.ilentheme-options  .ui-widget button{
+  font-family:inherit;
+}

@@ -1,0 +1,1256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AE Strip Escrow\n"
+"Report-Msgid-Bugs-To: http://www.enginethemes.com/\n"
+"POT-Creation-Date: 2016-02-03 13:11+0700\n"
+"PO-Revision-Date: 2016-02-03 13:11+0700\n"
+"Last-Translator: dakachi <david87dang@gmail.com>\n"
+"Language-Team: Engine Themes <contact@enginethemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _e;__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\Wordpress\\Plugin ET\\Fre Credit"
+"\\v1.0\\fre_credit\n"
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form-js.php:7
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form.php:5
+msgid "SKU"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form-js.php:12
+msgid "Package name"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form-js.php:17
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form.php:15
+msgid "Price"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form-js.php:22
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form.php:20
+msgid "Money number for this package"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form-js.php:24
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form.php:22
+msgid "money to wallet"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form-js.php:28
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form.php:26
+msgid "Short description about this package"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form-js.php:36
+msgid "Save Package"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form-js.php:38
+msgid "Cancel"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form.php:10
+msgid "Enter a name for your plan"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/credit-plan-form.php:34
+msgid "Save Plan"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item-js.php:5
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item.php:10
+msgid "Approve"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item-js.php:8
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item.php:13
+msgid "Decline"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item-js.php:16
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item.php:25
+#: Credit\v1.0\fre_credit/container-withdraws.php:37
+msgid "Pending"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item-js.php:18
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item.php:28
+msgid "Confirmed"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item-js.php:20
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item.php:31
+msgid "Failed"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item-js.php:31
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item.php:42
+msgid " by "
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/admin-template/withdraw-item.php:53
+#, php-format
+msgid "This post has been deleted by %s"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-employer.php:104
+msgid "Please select a package plan!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-employer.php:114
+#: Credit\v1.0\fre_credit/class-credit-users.php:344
+msgid "Payment success!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-employer.php:120
+#: Credit\v1.0\fre_credit/class-credit-users.php:351
+#: Credit\v1.0\fre_credit/class-credit-users.php:627
+msgid "You don't have enough money in your wallet!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-employer.php:143
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:54
+#: Credit\v1.0\fre_credit/class-credit-users.php:90
+#: Credit\v1.0\fre_credit/class-credit-users.php:134
+#: Credit\v1.0\fre_credit/class-credit-users.php:602
+msgid "Please enter a valid secure code!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-employer.php:180
+msgid " to post a project"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-employer.php:182
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:73
+#: Credit\v1.0\fre_credit/template.php:202
+#: Credit\v1.0\fre_credit/template.php:383
+msgid "Paid"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-employer.php:229
+msgid "FrE credit payment method false."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:150
+msgid "Payment failed!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:206
+msgid "Received"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:287
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:335
+msgid "Send payment successful."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:293
+msgid "Send payment failed"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:300
+msgid "Invalid charge."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:336
+msgid "Success"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-escrow.php:342
+msgid "Refund failed!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:62
+#: Credit\v1.0\fre_credit/class-credit-history.php:63
+msgid "Credit history"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:64
+#: Credit\v1.0\fre_credit/class-credit-plans.php:64
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:64
+msgid "Add New"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:65
+msgid "Add New Credit history"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:66
+msgid "Edit Credit history"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:67
+msgid "New Credit history"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:68
+msgid "All Credit histories"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:69
+msgid "View Credit history"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:70
+msgid "Search Credit histories"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:71
+msgid "No Credit history found"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:72
+msgid "No Credit histories found in Trash"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:74
+msgid "Credit histories"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:125
+msgid "credit history"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:131
+msgid "Freelance escrow"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:203
+#, php-format
+msgid "to Paypal <u>%s</u>"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:206
+#, php-format
+msgid "to Bank <u>%s</u>"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:212
+#, php-format
+msgid "via %s"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:216
+#, php-format
+msgid "for %s project <u>%s</u> "
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-history.php:224
+#, php-format
+msgid "from %s - Project <u>%s</u> "
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:62
+#: Credit\v1.0\fre_credit/class-credit-plans.php:63
+msgid "Credit plan"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:65
+msgid "Add New Credit plan"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:66
+msgid "Edit Credit plan"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:67
+msgid "New Credit plan"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:68
+msgid "All Credit plans"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:69
+msgid "View Credit plan"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:70
+msgid "Search Credit plans"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:71
+msgid "No Credit plan found"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:72
+msgid "No Credit plans found in Trash"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-plans.php:74
+msgid "Credit plans"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-plans.php:106
+#, php-format
+msgid "%s  for %s credits"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/class-credit-users.php:71
+msgid "Successful!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:109
+#: Credit\v1.0\fre_credit/class-credit-users.php:146
+msgid "Update successful!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:114
+#: Credit\v1.0\fre_credit/class-credit-users.php:151
+msgid "Error!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:387
+msgid "You don't have enough money in you wallet!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:399
+msgid "Success!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:405
+msgid "There isn't any charge for this transferring!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:442
+msgid "Refund success!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:448
+msgid "There isn't any froze money for this refund!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:455
+msgid "There isn't any charge for this refund!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:482
+#, php-format
+msgid "%s just deposit on your website"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:502
+#, php-format
+msgid "You've successfully purchased %d ."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:610
+msgid "Please enter a valid amount and payment information!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:617
+msgid "Please enter a number greater than minimum withdraw"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:638
+msgid "withdrew"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:646
+#, php-format
+msgid "%s sent a request to withdraw %s "
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:651
+msgid "<b>Payment Information</b><br>"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:653
+#, php-format
+msgid "Paypal Account: %s"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:655
+#, php-format
+msgid "Benficial Owner: %s<br>"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:656
+#, php-format
+msgid "Account number:  %s<br>"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:657
+#, php-format
+msgid "Banking Information: %s<br>"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:676
+#, php-format
+msgid "User %s  has sent a withdraw request"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:681
+msgid "Send request successful!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:688
+msgid "Send request failed!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:740
+msgid "Please wait a minute to request a new secure code!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:747
+#, php-format
+msgid "New secure code on %s"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:752
+msgid "Your request to generate a secure code is failed!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-users.php:757
+msgid "You secure code is sent to your email!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:62
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:63
+#: Credit\v1.0\fre_credit/template.php:450
+msgid "Credit withdraw"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:65
+msgid "Add New Credit withdraw"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:66
+msgid "Edit Credit withdraw"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:67
+msgid "New Credit withdraw"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:68
+msgid "All Credit withdraws"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:69
+msgid "View Credit withdraw"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:70
+msgid "Search Credit withdraws"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:71
+msgid "No Credit withdraw found"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:72
+msgid "No Credit withdraws found in Trash"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/class-credit-withdraw.php:74
+msgid "Credit withdraws"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:35
+msgid "All"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:36
+msgid "Publish"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:38
+msgid "Draft"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:43
+msgid "Search post..."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:51
+msgid "All Withdraws"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:65
+msgid "There are no payments yet."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:180
+msgid "Update withdraw successful!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:186
+msgid "There isn't enough money in your wallet!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:193
+msgid "There isn't any charge for this withdraw request!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:200
+msgid "Update failed!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:207
+msgid "Please login to your administrator to update withdraw!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/container-withdraws.php:223
+msgid "Are you sure to decline this request?"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:13
+msgid "Credit Settings"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:21
+#: Credit\v1.0\fre_credit/settings.php:30
+msgid "Use credit system"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:24
+msgid "Enabling this will allow users use credit system on site."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:38
+#: Credit\v1.0\fre_credit/settings.php:47
+msgid "Prevent access to deposit page"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:41
+msgid "Enabling this will prevent users access to deposit page on site."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:55
+msgid "Deposit page slug"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:58
+#: Credit\v1.0\fre_credit/settings.php:64
+msgid "Set page slug to deposit page."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:66
+msgid "eg:deposit"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:74
+msgid "Admin email who will receive notification"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:77
+msgid "Set admin email who will receive notification"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:83
+msgid "Set admin email who will receive notification."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:85
+msgid "abc@example.com, cde@example.com "
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:93
+#: Credit\v1.0\fre_credit/settings.php:96
+msgid "Minimum money in each withdraw process"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:102
+msgid "Set minimum money in each withdraw process."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:104
+msgid "0"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:113
+msgid "Credit Plans"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:130
+msgid "Mail Template"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:139
+msgid "Mail description here"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:140
+msgid ""
+"Email templates for new message. You can use placeholders to include some "
+"specific content."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:141
+msgid "user's details you want to send mail"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:142
+msgid "member dashboard url "
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:143
+msgid "project title, link, details, author"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:144
+msgid "activate link is require for user to renew their pass"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:145
+msgid " site info, admin email"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:146
+msgid "list projects employer send to freelancer when invite him to join"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:155
+#: Credit\v1.0\fre_credit/settings.php:166
+msgid "Deposit notification email template"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:159
+msgid "Send to admin when there is a new deposit from users."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:175
+msgid "Request secure code email template"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:179
+msgid "Send to users their secure code when they request one."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:186
+msgid "Request secure code email template."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:195
+#: Credit\v1.0\fre_credit/settings.php:207
+msgid "Withdraw notification email template"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:199
+msgid "Send to admin when there is a new withdraw request from users."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:226
+#: Credit\v1.0\fre_credit/settings.php:227
+msgid "Credit system"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:231
+msgid "Bridging the gap between Employers and Freelancers"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:242
+msgid "Withdraws"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:243
+msgid "WITHDRAWS"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:247
+msgid "Overview of all withdraws"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:285
+msgid "Credit escrow settings"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:289
+#: Credit\v1.0\fre_credit/settings.php:299
+msgid ""
+"Enabling this will allow you to use credit escrow system and disable all "
+"other gateways!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:296
+msgid "use credit escrow"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:304
+#: Credit\v1.0\fre_credit/settings.php:305
+msgid "Credit fees"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:310
+msgid "Primary receiver pays all fees"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:311
+msgid "Each receiver pays their own fee"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/settings.php:312
+msgid "Secondary receivers pay all fees"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:27
+msgid "Your balance"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:29
+msgid "Send the payment by using your balance"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:32
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step1.php:39
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:37
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:48
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:60
+msgid "Select"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:73
+msgid "Enter your secure code:"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:98
+#: Credit\v1.0\fre_credit/template.php:267
+msgid "Credits"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:126
+#: Credit\v1.0\fre_credit/template.php:309
+msgid "Your withdraw request is waiting for admin approval."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:128
+#: Credit\v1.0\fre_credit/template.php:311
+msgid ""
+"Your project commission & fee have been sent to admin under Escrow system. "
+"Otherwise, your withdraw request is waiting for admin approval."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:138
+#: Credit\v1.0\fre_credit/template.php:321
+msgid "Payment Method"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:141
+#: Credit\v1.0\fre_credit/template.php:325
+msgid "Paypal Account:"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:144
+#: Credit\v1.0\fre_credit/template.php:328
+msgid "Update your Paypal account information"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:149
+#: Credit\v1.0\fre_credit/template.php:162
+#: Credit\v1.0\fre_credit/template.php:333
+#: Credit\v1.0\fre_credit/template.php:346
+msgid "Change"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:154
+#: Credit\v1.0\fre_credit/template.php:338
+msgid "Banking Information:"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:157
+#: Credit\v1.0\fre_credit/template.php:341
+msgid "Update your Banking account information"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:171
+#: Credit\v1.0\fre_credit/template.php:353
+msgid "Credit balance"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:175
+#: Credit\v1.0\fre_credit/template.php:359
+msgid "Available balance"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:179
+#: Credit\v1.0\fre_credit/template.php:363
+msgid "Frozen balance"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:188
+#: Credit\v1.0\fre_credit/template.php:200
+#: Credit\v1.0\fre_credit/template.php:370
+#: Credit\v1.0\fre_credit/template.php:381
+msgid "Withdraw"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:193
+msgid "Credits changelog"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:196
+#: Credit\v1.0\fre_credit/template.php:377
+msgid "All transaction"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:198
+#: Credit\v1.0\fre_credit/template.php:379
+msgid "All Transaction"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:199
+#: Credit\v1.0\fre_credit/template.php:380
+msgid "Deposit"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:201
+#: Credit\v1.0\fre_credit/template.php:382
+msgid "Receive"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:206
+#: Credit\v1.0\fre_credit/template.php:388
+msgid "From"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:208
+#: Credit\v1.0\fre_credit/template.php:390
+msgid "to"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:235
+#: Credit\v1.0\fre_credit/template.php:414
+msgid "There isn't any transaction!"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:276
+#: Credit\v1.0\fre_credit/template.php:646
+msgid "Request a new Secure Code"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:279
+#: Credit\v1.0\fre_credit/template.php:649
+msgid "Reset Secure Code"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:369
+msgid "Recharge"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:374
+msgid "Credit changelog"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:456
+msgid "Current total credit"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:460
+msgid "Available credit"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:464
+msgid "Frozen credit"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:469
+msgid "Withdraw amount"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:470
+msgid "Minimum amount is"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:482
+msgid "Payment information"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:485
+msgid "Payment method"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:489
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:34
+msgid "Paypal"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:492
+msgid "Bank"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:497
+msgid "Note"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:502
+msgid "Security code"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:503
+msgid "Please enter the code that we provided you when register."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:508
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:158
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step3.php:90
+msgid "Submit"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:535
+msgid "Update Paypal account information"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:540
+msgid "Paypal Account"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:541
+msgid "Enter your email paypal"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:544
+#: Credit\v1.0\fre_credit/template.php:594
+msgid "Secure Code"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:545
+#: Credit\v1.0\fre_credit/template.php:595
+msgid "Enter secure code"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:548
+#: Credit\v1.0\fre_credit/template.php:598
+msgid "Update"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:577
+msgid "Update Banking Information"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:582
+msgid "Benficial Owner"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:586
+msgid "Account number"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre Credit\v1.0\fre_credit/template.php:590
+msgid "Banking Information"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/form-template.php:32
+msgid "Your secure code:"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/form-template.php:43
+msgid "PAY TO YOUR BALANCE"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step1.php:11
+msgid "Select your pricing plan"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step1.php:21
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step1.php:32
+msgid "Free"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step1.php:25
+#, php-format
+msgid "You will have %s  if using this plan."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:10
+msgid "Login or Register"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:17
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:23
+msgid "Login"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:18
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:127
+msgid "Register"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:23
+msgid "Already have an account?"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:30
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:133
+msgid "Username"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:30
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:33
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:136
+msgid "Enter username"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:41
+msgid "Email address"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:41
+msgid "Enter a email"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:44
+msgid "Your email address"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:52
+msgid "I'm looking to:"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:52
+msgid "Choose type account"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:63
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:66
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:77
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:144
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:147
+msgid "Password"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:63
+msgid "Enter password"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:74
+msgid "Retype Password"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:74
+msgid "Retype password"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:87
+#, php-format
+msgid "I agree with the <a href=\"%s\">Term of Use and Privacy policy</a>"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:99
+msgid "Create account"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:114
+#, php-format
+msgid ""
+"By creating an account, you agree to our <a href=\"%s\">Term of Use and "
+"Privacy policy</a>"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:127
+msgid "You do not have an account?"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:133
+msgid "Enter Username"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step2.php:144
+msgid "Enter Password"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step3.php:22
+msgid "Enter your project details"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step3.php:32
+#, php-format
+msgid "Budget (%s)"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step3.php:34
+msgid "Enter a short title for your project"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step3.php:49
+msgid "Deadline"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step3.php:59
+msgid "days"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step3.php:60
+msgid "week"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step3.php:75
+msgid "Notes"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step3.php:77
+msgid "Describe your project in a few paragraphs"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:14
+msgid "Select payment method"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:35
+msgid "Send your payment via Paypal."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:45
+msgid "2Checkout"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:46
+msgid "Send your payment via 2Checkout."
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:57
+msgid "Cash"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-deposit-step4.php:58
+msgid "Send your cash payment to our bank account"
+msgstr ""
+
+#: D:\Wordpress\Plugin ET\Fre
+#: Credit\v1.0\fre_credit/template/fre-credit-history-item-js.php:8
+#: Credit\v1.0\fre_credit/template/fre-credit-history-item.php:12
+msgid "Balance:"
+msgstr ""

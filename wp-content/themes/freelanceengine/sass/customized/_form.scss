@@ -1,0 +1,11 @@
+.et-frm{
+    input{
+        width: auto;
+        &.form-control{
+            padding: 0 10px;
+        }
+    }
+    input[type="radio"], input[type="checkbox"]{
+        margin: 7px 0 0 -20px;
+    }
+}

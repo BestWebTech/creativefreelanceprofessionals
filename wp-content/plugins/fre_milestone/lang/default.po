@@ -1,0 +1,311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-10-19 09:31+0700\n"
+"PO-Revision-Date: 2015-10-19 09:31+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ae_milestone.php:88
+msgid "Are you sure to delete this?"
+msgstr ""
+
+#: class-milestone-actions.php:164
+msgid "Can not update milestone when project in process"
+msgstr ""
+
+#: class-milestone-actions.php:308
+msgid "Project not in process"
+msgstr ""
+
+#: class-milestone-actions.php:330
+msgid "Resolved a milestone."
+msgstr ""
+
+#: class-milestone-actions.php:348
+msgid "Close a milestone."
+msgstr ""
+
+#: class-milestone-actions.php:366
+msgid "Reopen a milestone."
+msgstr ""
+
+#: class-milestone-actions.php:407
+msgid "Post not found!"
+msgstr ""
+
+#: class-milestone-actions.php:530
+#, php-format
+msgid "[Re-open milestone] %s has re-opened milestone %s"
+msgstr ""
+
+#: class-milestone-actions.php:534
+#, php-format
+msgid "[Resolve milestone] %s has resolved milestone %s"
+msgstr ""
+
+#: class-milestone-actions.php:538
+#, php-format
+msgid "[Close milestone] %s has closed milestone %s"
+msgstr ""
+
+#: class-milestone-actions.php:585
+#, php-format
+msgid "%s has been updated"
+msgstr ""
+
+#: class-milestone-actions.php:698 class-milestone-posttype.php:132
+msgid "Open"
+msgstr ""
+
+#: class-milestone-actions.php:703
+msgid "Re-open"
+msgstr ""
+
+#: class-milestone-actions.php:708 class-milestone-posttype.php:143
+msgid "Resolve"
+msgstr ""
+
+#: class-milestone-actions.php:713
+msgid "Close"
+msgstr ""
+
+#: class-milestone-actions.php:738
+#, php-format
+msgid "type=reopen_milestone&milestone=%s&project=%s"
+msgstr ""
+
+#: class-milestone-actions.php:739
+#, php-format
+msgid "Milestone %s on project %s was re-opened"
+msgstr ""
+
+#: class-milestone-actions.php:743
+#, php-format
+msgid "type=resolve_milestone&milestone=%s&project=%s"
+msgstr ""
+
+#: class-milestone-actions.php:744
+#, php-format
+msgid "Milestone %s on project %s was resolved"
+msgstr ""
+
+#: class-milestone-actions.php:748
+#, php-format
+msgid "type=close_milestone&milestone=%s&project=%s"
+msgstr ""
+
+#: class-milestone-actions.php:749
+#, php-format
+msgid "Milestone %s on project %s was closed"
+msgstr ""
+
+#: class-milestone-actions.php:753
+#, php-format
+msgid "type=create_milestone&milestone=%s&project=%s"
+msgstr ""
+
+#: class-milestone-actions.php:754
+#, php-format
+msgid "Milestone %s on project %s was created"
+msgstr ""
+
+#: class-milestone-posttype.php:74 class-milestone-posttype.php:85
+#: template.php:19 template.php:57
+msgid "Milestones"
+msgstr ""
+
+#: class-milestone-posttype.php:75
+msgid "Milestone"
+msgstr ""
+
+#: class-milestone-posttype.php:76 class-milestone-posttype.php:77
+msgid "Add new"
+msgstr ""
+
+#: class-milestone-posttype.php:78
+msgid "Edit milestone"
+msgstr ""
+
+#: class-milestone-posttype.php:79
+msgid "New milestone"
+msgstr ""
+
+#: class-milestone-posttype.php:80
+msgid "View milestone"
+msgstr ""
+
+#: class-milestone-posttype.php:81
+msgid "Search milestones"
+msgstr ""
+
+#: class-milestone-posttype.php:82
+msgid "No milestones found"
+msgstr ""
+
+#: class-milestone-posttype.php:83
+msgid "No milestones found in Trash"
+msgstr ""
+
+#: class-milestone-posttype.php:84
+msgid "Parent milestone:"
+msgstr ""
+
+#: class-milestone-posttype.php:154
+msgid "Done"
+msgstr ""
+
+#: class-milestone-posttype.php:165
+msgid "Reopen"
+msgstr ""
+
+#: settings.php:89
+msgid "General settings"
+msgstr ""
+
+#: settings.php:97 settings.php:107
+msgid "Maximum number of milestone"
+msgstr ""
+
+#: settings.php:100
+msgid "Set up how many milestones per project"
+msgstr ""
+
+#: settings.php:109
+msgid "eg:5"
+msgstr ""
+
+#: settings.php:120
+msgid "Mailing"
+msgstr ""
+
+#: settings.php:128
+msgid "Mail Template"
+msgstr ""
+
+#: settings.php:137
+msgid "Mail description here"
+msgstr ""
+
+#: settings.php:138
+msgid "Email templates for create, remove, done, resolve, reopen actions"
+msgstr ""
+
+#: settings.php:139
+msgid "user's details you want to send mail"
+msgstr ""
+
+#: settings.php:140
+msgid "member dashboard url "
+msgstr ""
+
+#: settings.php:141
+msgid "project title, link, details, author"
+msgstr ""
+
+#: settings.php:142
+msgid "activate link is require for user to renew their pass"
+msgstr ""
+
+#: settings.php:143
+msgid " site info, admin email"
+msgstr ""
+
+#: settings.php:144
+msgid "list projects employer send to freelancer when invite him to join"
+msgstr ""
+
+#: settings.php:197 settings.php:208
+msgid "Update Milestone Template"
+msgstr ""
+
+#: settings.php:201
+msgid "Send email to freelancer when employer update milestone when edit project"
+msgstr ""
+
+#: settings.php:218 settings.php:229
+msgid "Resolve Milestone Template"
+msgstr ""
+
+#: settings.php:222
+msgid "Send email to employer when freelancer resolve a milestone."
+msgstr ""
+
+#: settings.php:240 settings.php:251
+msgid "Reopen Milestone Template"
+msgstr ""
+
+#: settings.php:244
+msgid "Send email to freelancer when employer reopen a milestone."
+msgstr ""
+
+#: settings.php:261
+msgid "Close Milestone Template"
+msgstr ""
+
+#: settings.php:265
+msgid "Send email to freelancer when employer mark done a milestone."
+msgstr ""
+
+#: settings.php:272
+msgid "Mark Done Milestone Template"
+msgstr ""
+
+#: settings.php:296
+msgid "AE Milestone"
+msgstr ""
+
+#: settings.php:297
+msgid "MILESTONE"
+msgstr ""
+
+#: settings.php:302
+msgid "All setings for milestone plugin"
+msgstr ""
+
+#: template.php:20
+msgid "Separate project into milestones"
+msgstr ""
+
+#: template.php:23
+#, php-format
+msgid "You can create %s milestone"
+msgstr ""
+
+#: template.php:25
+#, php-format
+msgid "You can create %s milestones"
+msgstr ""
+
+#: template.php:87 template.php:143
+msgid "Project milestones :"
+msgstr ""
+
+#: template.php:254
+#, php-format
+msgid "%s has re-opened milestone %s on %s workspace"
+msgstr ""
+
+#: template.php:267
+#, php-format
+msgid "%s has resolved milestone %s on %s workspace"
+msgstr ""
+
+#: template.php:280
+#, php-format
+msgid "%s has closed milestone %s on %s workspace"
+msgstr ""
+
+#: template.php:293
+#, php-format
+msgid "%s has created milestone %s on %s workspace"
+msgstr ""

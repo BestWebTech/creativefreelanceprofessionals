@@ -1,0 +1,899 @@
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.9.1 STYLE CSS FOR LIST PROJECT
+--------------------------------*/
+.fre_container{
+  .vc_row{
+    margin-left: 0;
+    margin-right: 0;
+    &.vc_row-fluid{
+      margin-bottom: 0;
+    }
+  }
+  .vc_col-sm-12{
+    padding-left: 0;
+    padding-right: 0;
+    background-position-x: 50% !important;
+    background-position-y: 0 !important;
+    background-attachment: fixed !important;
+  }
+  .wpb_content_element{
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+  }
+}
+.number-project-wrapper, .number-profile-wrapper{
+  width:100%;
+  display:block;
+  position:relative;
+  background: $white-base;
+  .number-project, .number-profile{
+    color: $blue-base;
+    font-weight:300;
+    font-size: 22px;
+    margin:50px 0 10px;
+  }
+  h2.wpb_tabs_heading, h2.wpb_tour_heading, .vc-tta-title h2  {
+    max-width: 1170px;
+    margin: 10px auto 20px;
+    color: $blue-base;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  #tabs, .vc-tta-title{
+    padding-top: 45px;
+    .nav-tabs-project{
+      position:relative;
+      display:block;
+      z-index: 2;
+      ul{
+        &.wpb_tabs_nav {
+          max-width: 1170px;
+          margin: 0 auto;
+          border: none;
+          position: relative;
+          li{
+            background: transparent !important;
+            outline: none;
+            > a{
+              border-radius:0;
+              -webkit-border-radius:0;
+              -moz-border-radius:0;
+              font-size: 15px;
+              font-weight: 500;
+              border:none;
+              border-top:5px solid transparent;
+              padding: 15px 28px 30px;
+              position:relative;
+              bottom:-15px;
+              letter-spacing: 1px;
+              color: #bdc3c7;
+              &:hover{
+                border:none;
+                border-top:5px solid $blue-light-base;
+                color: $blue-base;
+                font-weight: 600;
+              }
+            }
+            &.ui-tabs-active{
+              > a{
+                border-top: 5px solid $blue-light-base;
+                color: $blue-base;
+                -moz-box-shadow:  0 1px 1px rgba($gray-light,.2);
+                -webkit-box-shadow:  0 1px 1px rgba($gray-light,.2);
+                box-shadow: 0 1px 1px rgba($gray-light,.2);
+                background-color: $white-base;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .btn-post-project{
+    position:absolute !important;
+    right:0;
+    top:15px;
+    background-color: $blue-light-base;
+    -moz-box-shadow: 0 2px 0 $blue-dark-base;
+    -webkit-box-shadow: 0 2px 0 $blue-dark-base;
+    box-shadow: 0 2px 0 $blue-dark-base;
+    padding:9px 25px;
+    color: $white-base;
+    z-index: 9;
+  }
+  .btn-sumary{
+    i{
+      font-size: $font-size-base;
+      position:absolute;
+      top:50%;
+      left: 100%;
+      margin-top: -8px;
+      opacity:0;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    &.btn-post-project{
+      i{
+        display:inline-block;
+        margin-right:15px;
+      }
+      &:hover i{
+        opacity:1;
+        left:15px;
+      }
+      &:hover{
+        opacity: .8;
+        padding-left: 40px;
+      }
+    }
+  }
+}
+
+.vc_tta-color-grey {
+  &.vc_tta-style-classic {
+    .vc_tta-tabs-list {
+      .vc_tta-tab {
+        background: transparent !important;
+        outline: none;
+        > a{
+          border-radius:0;
+          -webkit-border-radius:0;
+          -moz-border-radius:0;
+          font-size: 15px;
+          font-weight: 500;
+          border:none;
+          border-top:5px solid transparent;
+          padding: 15px 28px 30px;
+          position:relative;
+          bottom:-15px;
+          letter-spacing: 1px;
+          color: #bdc3c7;
+          background: none;
+          &:hover{
+            border:none;
+            border-top:5px solid $blue-light-base;
+            color: $blue-base;
+            font-weight: 600;
+            background: #eee;
+          }
+          &:before, &::after {
+            display: none !important;
+          }
+        }
+        &.vc_active{
+          > a{
+            border-top: 5px solid $blue-light-base;
+            border-color: $blue-light-base;
+            color: $blue-base;
+            -moz-box-shadow:  0 1px 1px rgba($gray-light,.2);
+            -webkit-box-shadow:  0 1px 1px rgba($gray-light,.2);
+            box-shadow: 0 1px 1px rgba($gray-light,.2);
+            background-color: $white-base;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+.vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tabs-container, 
+.vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tabs-list {
+  overflow: inherit;
+}
+.vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs .vc-tta-container .vc_tta-panels {
+  background: none;
+  border: none;
+}
+.vc_tta.vc_general .vc-tta-container .vc_tta-panel-heading {
+  display:none;
+}
+.vc_tta.vc_tta-tabs .number-project-wrapper .vc_tta-tabs-container {
+  display: block;
+}
+.vc_tta.vc_general .vc-tta-container .vc_tta-panel-body {
+  padding:0;
+}
+
+.section-wrapper{
+  display:block;
+  position:relative;
+  min-height:50px;
+}
+.list-project-wrapper{
+  width: 100%;
+}
+.list-project-wrapper,.list-profile-wrapper,.tab-content-project{
+  width:100%;
+}
+.title-tab-project{
+  span{
+    color: #b9c5cd;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+.list-project{
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  li{
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: $white-base;
+    -moz-box-shadow: 0 1px 1px rgba($gray-light,.2);
+    -webkit-box-shadow: 0 1px 1px rgba($gray-light,.2);
+    box-shadow: 0 1px 1px rgba($gray-light,.2);
+    padding: 7px 10px 8px 10px;
+    margin-bottom:5px;
+    font-size: $font-size-base;
+    &:hover{
+      background: rgba($gray-lighter,0.3);
+    }
+    .title-project{
+      display:inline-block;
+      vertical-align:middle;
+      color: #30363b;
+      img{
+        margin-right:10px;
+        border-radius: 50%;
+      }
+    }
+    a.project-item-title{
+      color: $blue-base;
+      font-size: $font-size-base;
+      font-weight: 400;
+      color: #30363c;
+    }
+    .wrapper-btn{
+      text-align:right;
+      margin: 8px 0 0 0;
+    }
+    span, span a{
+      font-weight:300;
+      color: #656e78;
+      line-height:35px;
+      display:block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -o-text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .budget-project{
+      color: $blue-base;
+      font-weight:700;
+      font-size: $font-size-base;
+    }
+    span.ribbon{
+      width: 20px;
+      height: 20px;
+      background: $orange-base;
+      position: absolute;
+      text-align: center;
+      top: -6px;
+      right: 0px;
+      left: -25px;
+      padding-top: 0px;
+      overflow: inherit;
+      line-height: 2;
+      i{
+        font-size: $font-size-base;
+      }
+      &:after{
+        width: 20px;
+        content: "";
+        display: block;
+        border: 10px solid $orange-base;
+        border-top-width: 0.5em;
+        border-bottom-color: rgba(0, 0, 0, 0);
+        z-index: 5;
+        bottom: 0;
+        border-bottom-color: transparent;
+        top: 20px;
+        position: absolute;
+      }
+    }
+  }
+}
+.ribbon i{
+  color: $white-base;
+  font-size: 18px;
+}
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.9.2 STYLE CSS FOR PAGINATIONS
+--------------------------------*/
+.paginations-wrapper{
+  padding-bottom: 15px;
+  a{
+    color: $gray-light;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover{
+      color: $orange-base;
+    }
+    &.load-more-post{
+      background: transparent;
+      color: $blue-light-base;
+      padding-left: 0;
+      padding-top: 15px;
+    }
+  }
+  span{
+    &.page-numbers.current{
+      padding: 5px;
+      font-size: 16px;
+      color: $orange-base;
+    }
+  }
+}
+.tab-content-profile{
+  margin:53px 0 0;
+}
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.9.4 STYLE CSS FOR PROFILE
+--------------------------------*/
+.list-profile .profile-content{
+  display: block;
+  padding: 20px 25px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: $white-base;
+  -moz-box-shadow: 0 1px 1px rgba($gray-light,.2);
+  -webkit-box-shadow: 0 1px 1px rgba($gray-light,.2);
+  box-shadow: 0 1px 1px rgba($gray-light,.2);
+  margin-bottom: 30px;
+  position: relative;
+  .top-profile{
+    .avatar-profile{
+      display: block;
+      width: 66px;
+      height: 66px;
+      display:inline-block;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      overflow: hidden;
+      img{
+        width:100%;
+        height: auto;
+      }
+    }
+    .img-avatar{
+      margin-right:20px;
+    }
+    .info-profile{
+      width: 284px;
+    }
+    .link-profile{
+      margin-top:-33px;
+    }
+    .name-profile{
+      color: $blue-base;
+      font-size: 24px;
+      font-weight: 600;
+      display:block;
+      text-transform: capitalize;
+    }
+    .position-profile{
+      color: $green-base;
+      font-size: $font-size-base;
+      font-weight: 400;
+    }
+  }
+  .bottom-profile{
+    .wrapper-achivement{
+      width:50%;
+      max-width:50%;
+      margin-right:20px;
+      .rate-it{
+        font-size: 12px;
+      }
+      span{
+        font-size: $font-size-base;
+        color: #666f78;
+        font-weight: 400;
+      }
+      ul{
+        list-style:none;
+        padding:0;
+        margin:0;
+        border:1px solid #f4f6f8;
+        li{
+          border-right:1px solid #f4f6f8;
+          padding:10px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -o-text-overflow: ellipsis;
+          white-space: nowrap;
+          display: inline-block;
+          text-align: center;
+          max-width: 85px;
+          &:last-child{
+            border:none;
+          }
+        }
+      }
+    }
+    .list-skill-profile{
+      width:45%;
+      max-width:45%;
+      ul{
+        padding:0;
+        margin:0;
+        list-style:none;
+        min-height: 65px;
+        text-align: right;
+        li{
+          padding: 3px 10px;
+          -moz-border-radius: $border-radius-base;
+          -webkit-border-radius: $border-radius-base;
+          border-radius: $border-radius-base;
+          -moz-background-clip: padding;
+          -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+          background-color: #f2f5f7;
+          margin-left: 5px;
+          margin-bottom: 9px;
+          max-width: 165px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -o-text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 12px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+.top-profile{
+  margin-bottom:10px;
+}
+.top-profile, .bottom-profile{
+  padding:0;
+  list-style:none;
+  margin:0;
+}
+.btn-view-profile span {
+  display: block;
+  max-width: 91px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.rate-it .star-on-png, .rating-it i , .rate-it .star-half-png{
+  color: #fec600 !important;
+}
+.rate-it .fa-star-o:before{
+  content:"\f005" !important;
+  color: #666f78;
+}
+.raty{
+  display:inline-block;
+}
+.top-profile li, .bottom-profile li{
+  display:inline-block;
+  position:relative;
+  vertical-align:middle;
+}
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.9.5 STYLE CSS FOR COUNTER STYLE
+--------------------------------*/
+.counter-wrapper{
+  background:$white-base;
+  width:100%;
+  display:block;
+  padding:68px 0 78px 0;
+  .row > .col-sm-6{
+    margin-top: 20px;
+  }
+}
+.title-heading{
+  h3{
+    color: $orange-base;
+    font-size: $font-size-base;
+    font-weight: 500;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    margin:0 0 15px;
+  }
+  h4{
+    color: #3b3b3b;
+    font-size: 34px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.4;
+    margin-bottom: 25px;
+  }
+}
+.counter-content .title{
+  color: $gray-light;
+  font-size: 18px;
+  margin:0;
+}
+.counter-icon{
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin-right: 20px;
+  float: left;
+}
+.counter-icon-layla{
+  width:100%;
+  height:100%;
+  vertical-align:middle;
+  text-align:center;
+  i{
+    vertical-align:middle;
+    color: $gray-light;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  &:before, &:after{
+    position: absolute;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+  }
+  &:before{
+    top: 5px;
+    right: 0;
+    bottom: 5px;
+    left: 0;
+    border-top: 1px solid #9f9f9f;
+    border-bottom: 1px solid #9f9f9f;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  &:after{
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    left: 5px;
+    border-right: 1px solid #9f9f9f;
+    border-left: 1px solid #9f9f9f;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+  }
+}
+.counter-detail.active{
+  &.active{
+    .counter-icon-layla{
+      &:before, &:after{
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      &:after{
+        -webkit-transition-delay: 0.15s;
+        transition-delay: 0.15s;
+      }
+    }
+  }
+}
+.odometer{
+  color: $orange-base;
+  font-size: 36px;
+  font-weight: 600;
+  &.odometer-auto-theme, &.odometer-theme-default{
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    position: relative;
+    .odometer-digit{
+      display: -moz-inline-box;
+      -moz-box-orient: vertical;
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      position: relative;
+      .odometer-digit-spacer{
+        display: -moz-inline-box;
+        -moz-box-orient: vertical;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        visibility: hidden;
+      }
+      .odometer-digit-inner{
+        text-align: left;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+      }
+      .odometer-ribbon{
+        display: block;
+      }
+      .odometer-ribbon-inner{
+        display: block;
+        -webkit-backface-visibility: hidden;
+      }
+      .odometer-value{
+        display: block;
+        -webkit-transform: translateZ(0);
+        &.odometer-last-value{
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+.counter-wrapper{
+  .odometer{
+    &.odometer-auto-theme, &.odometer-theme-default{
+      &.odometer-animating-up{
+        .odometer-ribbon-inner{
+          -webkit-transition: -webkit-transform 2s;
+          -moz-transition: -moz-transform 2s;
+          -ms-transition: -ms-transform 2s;
+          -o-transition: -o-transform 2s;
+          transition: transform 2s;
+        }
+        &.odometer-animating{
+          .odometer-ribbon-inner{
+            -webkit-transform: translateY(-100%);
+            -moz-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+            -o-transform: translateY(-100%);
+            transform: translateY(-100%);
+          }
+        }
+      }
+      &.odometer-animating-down{
+        .odometer-ribbon-inner{
+          -webkit-transform: translateY(-100%);
+          -moz-transform: translateY(-100%);
+          -ms-transform: translateY(-100%);
+          -o-transform: translateY(-100%);
+          transform: translateY(-100%);
+        }
+        &.counter-wrapper{
+          .odometer-ribbon-inner{
+            -webkit-transform: translateY(-100%);
+            -moz-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+            -o-transform: translateY(-100%);
+            transform: translateY(-100%);
+          }
+        }
+        &.odometer-animating{
+          .odometer-ribbon-inner{
+            -webkit-transition: -webkit-transform 2s;
+            -moz-transition: -moz-transform 2s;
+            -ms-transition: -ms-transform 2s;
+            -o-transition: -o-transform 2s;
+            transition: transform 2s;
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+            transform: translateY(0);
+          }
+        }
+      }
+      .odometer-value{
+        text-align: center;
+      }
+    }
+  }
+}
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.9.5 STYLE CSS FOR TESTIMONALS
+--------------------------------*/
+.testimonial-wrapper{
+  position:relative;
+  display:block;
+  padding: 40px 0;
+  .container{
+    max-width: 100%;
+  }
+}
+.test-content{
+  display:block;
+  padding:20px;
+  border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: $white-base;
+  -moz-box-shadow: 0 1px 1px rgba($gray-light,.2);
+  -webkit-box-shadow: 0 1px 1px rgba($gray-light,.2);
+  box-shadow: 0 1px 1px rgba($gray-light,.2);
+  position:relative;
+  &:before{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 7px 0 5px;
+    border-color: $white-base transparent transparent transparent;
+    content:'';
+    position: absolute;
+    bottom: -7px;
+    left:35px;
+  }
+  p{
+    margin:0;
+    line-height:1.5;
+    color: $blue-base;
+    font-size: $font-size-base;
+    font-weight: 400;
+  }
+}
+.test-info{
+  position: relative;
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+.test-avatar{
+  width:50px;
+  height:50px;
+  display:inline-block;
+  overflow:hidden;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-right:15px;
+  img{
+    width:100%;
+    height: auto;
+  }
+}
+.test-name{
+  color: $blue-base;
+  font-size: $font-size-large;
+  vertical-align:top;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display:block;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 76px;
+  padding-right: 10px;
+  width: 100%;
+}
+.test-position{
+  display:block;
+  margin-top:2px;
+  color: $green-base;
+  font-size: $font-size-base;
+  vertical-align:middle;
+}
+.view-all-test{
+  display:block;
+  text-align:center;
+  margin:75px 0 20px;
+  color: $gray-light;
+  font-weight: 400;
+}
+.list-testimonial + .paginations-wrapper {
+  text-align: center;
+}
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.9.6 STYLE CSS FOR PRICING PACKAGE
+--------------------------------*/
+.pricing-container{
+  padding: 60px 0 100px 0;
+  .pricing-item{
+    margin-top: 50px;
+  }
+  .pricing sup{
+    top : -0.2em;
+  }
+  .pricing-number{
+    background:$blue-base;
+    text-align:center;
+    padding:30px;
+    h2{
+      &.price{
+        color: $white-base;
+        font-size: 34px;
+        font-weight: 500;
+        margin:0 0 5px;
+      }
+    }
+    span{
+      color: $white-base;
+      font-size: 20px;
+      font-weight: 200;
+      display:block;
+    }
+  }
+  .pricing-content{
+    padding: 30px 20px;
+    display:block;
+    text-align:center;
+    background:$white-base;
+  }
+  .pricing-title{
+    color: #30363b;
+    font-size: 20px;
+    font-weight: 500;
+    margin:0 0 10px;
+  }
+  .pricing-detail{
+    list-style:none;
+    padding:0;
+    margin:0;
+    min-height: 50px;
+    max-width: 180px;
+    margin: 0 auto;
+    p{
+      letter-spacing: 1.5;
+      font-weight: 300;
+      line-height: 30px;
+      color: #666f78;
+    }
+    li{
+      display:block;
+      margin-bottom:10px;
+      span{
+        color: #666f78;
+        font-size: $font-size-base;
+        font-weight: 200;
+      }
+    }
+  }
+  .submit-price{
+    margin-top:30px;
+  }
+  .pricing.active .pricing-number{
+    background:$orange-base;
+  }
+  .pricing:hover .btn-price,
+  .pricing.active .btn-price{
+    background-color:$orange-base;
+    -moz-box-shadow: 0 2px 0 $orange-darker-base;
+    -webkit-box-shadow: 0 2px 0 $orange-darker-base;
+    box-shadow: 0 2px 0 $orange-darker-base;
+    padding: 7px 30px;
+  }
+  .btn-sumary.btn-price{
+    padding: 7px 30px;
+    -moz-box-shadow: 0 2px 0 $dark-blue-base;
+    -webkit-box-shadow: 0 2px 0 $dark-blue-base;
+    box-shadow: 0 2px 0 $dark-blue-base;
+    font-size: $font-size-base;
+    font-weight: 400;
+    letter-spacing: 1.2;
+  }
+}
+#left_content{
+  margin-top: 0;
+}

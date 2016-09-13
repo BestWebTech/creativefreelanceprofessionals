@@ -1,0 +1,94 @@
+
+#idea-formm {
+    background: rgb(249, 249, 249) none repeat scroll 0 0;
+    border-top: 8px solid rgb(255, 255, 255);
+    padding: 20px;
+	width:70%;
+	margin:0 auto;
+}
+#idea-formm {
+    line-height: 1.5;
+}
+
+#idea-formm .idea-formtable {
+    padding-bottom: 15px;
+    width: 100%;
+	clear:both;
+	display:inline-block;
+}
+
+#idea-formm .idea-formtable .idea-lable-text {
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-right: 25px;
+    width: 30%;
+}
+
+#idea-formm .idea-formtable .idea-lable-text label {
+    color: inherit;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: inherit;
+    margin-bottom: 0;
+}
+
+#idea-formm .idea-formtable .idea-input-box {
+    width: 60%;
+	float:right;
+}
+
+#idea-formm .idea-formtable .idea-input-box input[type="text"], #idea-formm .idea-formtable .idea-input-box textarea {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: rgb(85, 85, 85);
+    display: block;
+    font-size: 14px;
+    line-height: 35px;
+    padding: 0 6px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 90%;
+	resize:none;
+}
+.error-alert {
+    background: rgb(250, 228, 228) none repeat scroll 0 0;
+    border: 1px solid rgb(237, 140, 140);
+    border-radius: 5px;
+    color: rgb(202, 105, 105);
+    margin-bottom: 15px;
+    padding: 10px;
+	margin:20px 0;
+}
+.success-alert {
+    background: rgb(238, 247, 234) none repeat scroll 0 0;
+    border: 1px solid rgb(187, 219, 161);
+    border-radius: 5px;
+    color: rgb(136, 168, 110);
+    margin-bottom: 15px;
+    padding: 10px;
+	margin:20px 0;
+}
+.idea_return_button{
+	background:#F62B0A;
+	color:#FFF;
+	padding:15px 20px;
+}
+.idea_return_button:hover{
+	color:#FFF;	
+}
+.required {
+    color: rgb(255, 0, 0);
+}
+
+a.add_field_button {
+    background: rgb(242, 56, 26) none repeat scroll 0 0;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 6px;
+}
+a.add_field_button:hover{
+	color:#FFF;	
+}

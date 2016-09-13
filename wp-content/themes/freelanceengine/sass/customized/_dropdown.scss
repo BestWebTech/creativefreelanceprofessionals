@@ -1,0 +1,84 @@
+.et-dropdown{
+	button{
+		border: 0;
+		background: none;
+	}
+  	.avatar{
+	  color: $white-base;
+	  font-size: 14px;
+	  letter-spacing: 1.5px;
+	  font-weight: 400;
+	  cursor: pointer;
+	  > span {
+		display: inline-block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		max-width: 98px;
+		vertical-align: middle;
+	  }
+
+	}
+	img{
+		display: inline-block;
+	    width: 35px;
+	    height: 35px;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    border-radius: 50%;
+	    margin-right: 8px;
+	    position: relative;
+	}
+  	.caret{
+	  margin-left: 8px;
+	  color: $white-base;
+	  cursor: pointer;
+	}
+	.dropdown-toggle{
+		position: inherit;
+    	z-index: 1111;
+	  	padding: 10px;
+	}
+	.dropdown-menu{
+		top: 17%;
+    	-moz-background-clip: padding;
+	    -webkit-background-clip: padding-box;
+	    background-clip: padding-box;
+	    background-color: $white-base !important;
+	    border: 1px solid $blue-base;
+	    padding: 10px;
+	    border-radius:$border-radius-base;
+	}
+	.et-dropdown-login{
+		padding-top: 46px;
+		width: 100%;
+		li{
+			border-top:1px solid $gray-lighter;
+			&:first-child{
+				margin-top: 5px;
+			}
+			a{
+				padding: 10px 13px;
+			  	color: $blue-base;
+				&:hover{
+					background:none;
+					color: $blue-base !important;
+				}
+			}
+			i{
+				padding-right:20px;
+			}
+		}
+	}
+}
+@media (max-width: 1360px) {
+	.et-dropdown .et-dropdown-login {
+		left: inherit;
+		right: 0;
+	}
+}
+@media (max-width: 991px) {
+	#header-wrapper .btn-menu-call li:last-child {
+		margin-right:0;
+	}
+}

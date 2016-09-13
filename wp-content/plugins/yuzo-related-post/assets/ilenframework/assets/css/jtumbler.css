@@ -1,0 +1,190 @@
+/*!
+ jTumbler jQuery Plugin
+ (c) 2013 www.w3Blender.com
+ For any questions and support please visit www.w3blender.com.
+ */
+.jtumbler {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.jtumbler label.state {
+  float: left;
+  text-align: center;
+  position: relative;
+  margin: 0 -1px 0 0;
+  width: 32%;
+}
+.jtumbler .slider,
+.jtumbler .state span {
+  display: block;
+  font-size: 0;
+  line-height: 100%;
+  height: 20px;
+  border: 1px solid #ACA8A8;
+}
+.jtumbler .slider,
+.jtumbler .active span {
+  border: 1px solid #898989;
+  background: #BABABA;
+}
+.jtumbler .slider.first,
+.jtumbler .first span {
+  border-radius: 3px 0 0 3px;
+}
+.jtumbler .slider.last,
+.jtumbler .last span {
+  border-radius: 0 3px 3px 0;
+}
+.jtumbler .state strong {
+  display: block;
+  font-size: 11px;
+  padding: 5px 0;
+  color: #666666;
+  font-weight: normal;
+}
+.jtumbler .slider {
+  position: absolute;
+  height: 20px;
+  width: 15px;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  display: none;
+}
+.jtumbler-magenta .jtumbler .slider,
+.jtumbler-magenta .jtumbler .state span {
+  border-color: #fc1997;
+}
+.jtumbler-magenta .jtumbler .slider,
+.jtumbler-magenta .jtumbler .active span {
+  border-color: #f8038b;
+  background: #fc1997;
+}
+.jtumbler-puple .jtumbler .slider,
+.jtumbler-puple .jtumbler .state span {
+  border-color: #6e155f;
+}
+.jtumbler-puple .jtumbler .slider,
+.jtumbler-puple .jtumbler .active span {
+  border-color: #59114d;
+  background: #6e155f;
+}
+.jtumbler-teal .jtumbler .slider,
+.jtumbler-teal .jtumbler .state span {
+  border-color: #4eb3b9;
+}
+.jtumbler-teal .jtumbler .slider,
+.jtumbler-teal .jtumbler .active span {
+  border-color: #43a4aa;
+  background: #4eb3b9;
+}
+.jtumbler-lime .jtumbler .slider,
+.jtumbler-lime .jtumbler .state span {
+  border-color: #96b232;
+}
+.jtumbler-lime .jtumbler .slider,
+.jtumbler-lime .jtumbler .active span {
+  border-color: #859e2c;
+  background: #96b232;
+}
+.jtumbler-brown .jtumbler .slider,
+.jtumbler-brown .jtumbler .state span {
+  border-color: #a05000;
+}
+.jtumbler-brown .jtumbler .slider,
+.jtumbler-brown .jtumbler .active span {
+  border-color: #874300;
+  background: #a05000;
+}
+.jtumbler-pink .jtumbler .slider,
+.jtumbler-pink .jtumbler .state span {
+  border-color: #e671b8;
+}
+.jtumbler-pink .jtumbler .slider,
+.jtumbler-pink .jtumbler .active span {
+  border-color: #e25bad;
+  background: #e671b8;
+}
+.jtumbler-orange .jtumbler .slider,
+.jtumbler-orange .jtumbler .state span {
+  border-color: #de9317;
+}
+.jtumbler-orange .jtumbler .slider,
+.jtumbler-orange .jtumbler .active span {
+  border-color: #c78415;
+  background: #de9317;
+}
+.jtumbler-blue .jtumbler .slider,
+.jtumbler-blue .jtumbler .state span {
+  border-color: #1ba1e2;
+}
+.jtumbler-blue .jtumbler .slider,
+.jtumbler-blue .jtumbler .active span {
+  border-color: #1891cb;
+  background: #1ba1e2;
+}
+.jtumbler-red .jtumbler .slider,
+.jtumbler-red .jtumbler .state span {
+  border-color: #e51400;
+}
+.jtumbler-red .jtumbler .slider,
+.jtumbler-red .jtumbler .active span {
+  border-color: #cc1200;
+  background: #e51400;
+}
+.jtumbler-green .jtumbler .slider,
+.jtumbler-green .jtumbler .state span {
+  border-color: #339933;
+}
+.jtumbler-green .jtumbler .slider,
+.jtumbler-green .jtumbler .active span {
+  border-color: #2d862d;
+  background: #339933;
+}
+.jtumbler-marine .jtumbler .slider,
+.jtumbler-marine .jtumbler .state span {
+  border-color: #034888;
+}
+.jtumbler-marine .jtumbler .slider,
+.jtumbler-marine .jtumbler .active span {
+  border-color: #023b6f;
+  background: #034888;
+}
+.jtumbler-white .jtumbler .slider,
+.jtumbler-white .jtumbler .state span {
+  border-color: #ffffff;
+}
+.jtumbler-white .jtumbler .slider,
+.jtumbler-white .jtumbler .active span {
+  border-color: #f2f2f2;
+  background: #ffffff;
+}
+.jtumbler-black .jtumbler .slider,
+.jtumbler-black .jtumbler .state span {
+  border-color: #000000;
+}
+.jtumbler-black .jtumbler .slider,
+.jtumbler-black .jtumbler .active span {
+  border-color: #000000;
+  background: #000000;
+}
+.jtumbler-dark-gray .jtumbler .slider,
+.jtumbler-dark-gray .jtumbler .state span {
+  border-color: #777777;
+}
+.jtumbler-dark-gray .jtumbler .slider,
+.jtumbler-dark-gray .jtumbler .active span {
+  border-color: #6a6a6a;
+  background: #777777;
+}
+.jtumbler-light-gray .jtumbler .slider,
+.jtumbler-light-gray .jtumbler .state span {
+  border-color: #cccccc;
+}
+.jtumbler-light-gray .jtumbler .slider,
+.jtumbler-light-gray .jtumbler .active span {
+  border-color: #bfbfbf;
+  background: #cccccc;
+}

@@ -1,0 +1,14 @@
+.et-breadcrumbs{
+	background:none;
+	a{
+		color: $blue-base;
+		font-weight: bold;
+		&:hover{
+			color: $blue-base !important;
+		}
+	}
+}
+.et-breadcrumbs > li + li:before{
+	content: "\f101";
+  	font-family: "FontAwesome";
+}

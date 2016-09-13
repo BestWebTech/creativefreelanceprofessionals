@@ -1,0 +1,6 @@
+.icon-help:before{
+    background: url("../img/wizard-icon.png") no-repeat scroll center top transparent;
+    content: "";
+    display: block;
+    height: 16px;
+}

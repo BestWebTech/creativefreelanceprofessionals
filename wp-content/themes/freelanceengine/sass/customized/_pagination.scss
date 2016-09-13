@@ -1,0 +1,21 @@
+.et-paginations{
+	li{
+		a{
+			border:0;
+			color: $blue-base;
+			&:hover{
+				background: none;
+				color: $orange-base !important;
+			}
+		}
+		&.active{
+			a{
+				background:none;
+				color: $orange-base;
+				&:hover{
+					background:none;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,2051 @@
+/*
+Framework Theme Options for Wordpress
+Author: iLen
+Author URI: http://ilentheme.com
+*/
+
+@import url('assets/css/font-awesome.css');
+@import url('assets/css/elusive-icons.css');
+@import url('assets/css/tooltip.css');
+
+@import url('assets/css/jquery.nouislider.min.css'); 
+@import url('assets/css/jquery.nouislider.pips.min.css'); 
+
+@import url('assets/css/datepicker.css'); 
+/*@import url('assets/css/rippler.css');*/
+
+
+
+/* =THEMES */
+.ilentheme-options{
+  width: 870px;
+  background: #F1F1F1;
+  border: 1px solid rgb(189, 189, 189);
+  margin-top: 20px;
+  /*overflow: hidden;*/
+  display: inline-block;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+
+/* =Header */
+.ilentheme-options h1{
+  margin: 10px;
+  padding: 0;
+}
+
+.ilentheme-options .logo h1{
+  margin: 0px;
+  padding: 10px 40px 0 40px;
+  position: relative;
+}
+.ilentheme-options .logo h1 span{
+  font-size: 9px;
+  color:#fff;
+  display: inline;
+  margin: 0
+}
+.ilentheme-options .logo h1 a{
+  background: transparent !important;
+  color: #fff;
+  font-family: "Open Sans Condensed";
+}
+.ilentheme-options .logo span{
+  font-size: 10px;
+  font-weight: bolder;
+  color:#BBAEA8;
+  display: block;
+  margin: 0 10px;
+}
+.ilentheme-options .logo span a{
+  color:#BBAEA8;
+  font-style: italic;
+  font-size: 11px;
+}
+.ilentheme-options .logo span a:hover{
+  background: transparent !important; 
+  text-decoration: underline;
+}
+
+.ilentheme-options h2{
+  font-size: 1.7em;
+  color:#c3c3c3;
+}
+
+.ilentheme-options h3{
+  font-size: 0.9em;
+  color:#919191;
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+.ilentheme-options h2:after,.ilentheme-options h3:after{
+  font-family: "FontAwesome";
+}
+.ilentheme-options h2:before,.ilentheme-options h3:before{
+  font-family: "FontAwesome";
+}
+.ilentheme-options h2 i,.ilentheme-options h3 i{
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  font-size: 90%;
+}
+
+
+/* =Links */
+.ilentheme-options a {
+  text-decoration: none;
+  /*color:#3eaf88;*/
+}
+
+.ilentheme-options a:hover {
+    /*background:#5ac8a2;*/
+}
+
+.ilentheme-options a:hover {
+    -moz-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+  }
+
+
+/* =INPUTS */
+.ilentheme-options .row input[type="text"]{
+  width: 100%;
+}
+.ilentheme-options .row .c input[type="text"]{
+  width: 95%;
+}
+
+
+
+.ilentheme-options .btn,.ilentheme-options input[type="button"],.ilentheme-options input[type="submit"] {
+  background: #3eaf88;
+  color: #fff;
+  padding: 7px 20px 7px 20px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  font-weight: bold;
+  border:0;
+}
+.ilentheme-options .btn:hover,.ilentheme-options input[type="button"]:hover,.ilentheme-options input[type="submit"]:hover{
+  background:#5ac8a2;    
+}
+.ilentheme-options input[type="text"],.ilentheme-options input[type="password"],
+.ilentheme-options select,.ilentheme-options textarea{
+  background: #e2e2e2;
+  border: 0;
+  color: #445157;
+  padding: 7px 1% 7px 1%;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  font-size: 1em;
+  font-family: "Helvetica Neue", "Helvetica", "Arial";
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+.ilentheme-options input[type="text"]:focus,.ilentheme-options input[type="password"]:focus,
+.ilentheme-options select:focus,.ilentheme-options textarea:focus{
+  background:#f2f2f2;  
+}
+
+.ilentheme-options .row .b input[type="text"],.ilentheme-options .row .b  input[type="password"],
+.ilentheme-options .row .b  select,.ilentheme-options .row .b  textarea{
+  margin-top: -5px;
+}
+.ilentheme-options .row .b select{
+  padding: 5px;
+  margin-top: 0;
+  height: 30px;
+  width:100%;
+}
+
+
+/* =MESAGGEBOX */
+.ilentheme-options .messagebox{
+  background: transparent;
+  width: 670px;
+  float: right;
+  padding: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-shadow: 1px 0 0 rgb(163, 163, 163);
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+.ilentheme-options .messagebox.ok{
+  background: #82AF78;
+}
+.ilentheme-options .messagebox.error{
+  background: #AF7878;
+  border: 0;
+  margin: 0;
+}
+
+
+/* =Rows / per / options */
+.ilentheme-options .row{
+  border-bottom: 1px solid rgb(241, 241, 241);
+  padding: 20px 0;
+  float: left;
+  clear: both;
+  display: block;
+}
+.ilentheme-options .row .a{
+  width: 45%;
+  float: left;
+}
+.ilentheme-options .row .b{
+  width: 50%;
+  float: left;
+  margin-top: 10px;
+}
+.ilentheme-options .row .c{
+  width: 100%;
+  float: none;
+  clear: both;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+.ilentheme-options .row .help{
+  color: #8A8A8A;
+  padding: 5px 0;
+  font-size: 11px;
+  font-family: tahoma;
+  clear: both;
+  font-style: italic;
+}
+
+
+/* =Uploads */
+.ilentheme-options .upload{}
+.ilentheme-options .upload .admin_delete_image_upload {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  display: block;
+  /* background: url(assets/images/delete.png) no-repeat; */
+  cursor: pointer;
+  padding: 0 5px;
+  background: rgb(255, 111, 111);
+  font-family: verdana;
+  color: #fff;
+}
+.ilentheme-options .upload input[type="text"]{
+  width: 48%;
+}
+.ilentheme-options .upload input[type="button"]{
+  width: 48%;
+}
+.ilentheme-options .upload .preview{
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.ilentheme-options .upload .preview img{
+  /* background: #FAFAFA; */
+  border-color: #ccc #9498A2 #9498A2 #eee;
+  border-style: solid;
+  border-width: 1px;
+  float: left;
+  max-width: 284px;
+  padding: 4px;
+  margin-bottom: 10px;
+  /* border-radius: 10px; */
+  -moz-border-radius: 10px;
+  /* -webkit-border-radius: 10px; */
+  -khtml-border-radius: 10px;
+  margin-top: 10px;
+}
+.ilentheme-options .upload2 input[type="text"] {
+  width: 48%;
+}
+
+.ilentheme-options .background_complete .upload .preview{
+    width: 100%;
+    min-height: 10px;
+    border:1px dotted rgb(179, 179, 179);
+    margin: 10px 0;
+    height: 20px;
+    position: relative; 
+}
+.ilentheme-options .background_complete .upload .preview::before {}
+.ilentheme-options .background_complete .upload .preview img{
+  max-width: 100%!important;
+  margin: 0;
+  padding: 0;
+}
+.ilentheme-options .background_complete .upload .admin_delete_image_upload{
+  top: 0;
+}
+
+.ilentheme-options .background_complete .upload input[type="text"]{
+  width: 63%;
+}
+.ilentheme-options .background_complete .upload input[type="button"]{
+  margin-right: 44px;
+  width: 25%;
+  float: right;
+}
+
+
+
+/* =TABS VERTICAL // Menu Sidebar LEFT */
+.ilentheme-options .ui-tabs.ui-tabs-vertical {
+    padding: 0;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-widget-header {
+    border: none;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+    float: left;
+    width: 180px;
+    background: transparent;
+    border-radius: 4px 0 0 4px;
+    /*border-right: 1px solid gray;*/
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 80px;
+    color: #565656;
+    
+    font-weight: bold;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+    width: 100%;
+    margin: 0.2em 0;
+    /*border: 1px solid gray;*/
+    border-width: 1px 0 1px 1px;
+    border-radius: 4px 0 0 4px;
+    overflow: hidden;
+    position: relative;
+    /*right: -2px;*/
+    z-index: 2;
+    height: 40px;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+    display: block;
+    width: 100%;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
+    cursor: pointer;
+    color: #94a4ac;
+    text-decoration: none;
+    background: transparent !important;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    /*margin-bottom: 0.2em;*/
+    padding-bottom: 0;
+    border-right: 1px solid white;
+    background: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-shadow: #c1c3c4 0px 3px 0px 0px;
+    color: #94a4ac;
+    text-decoration: none;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a{
+  color: #94a4ac;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
+    margin-bottom: 10px;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+  float: left;
+  /* border-left: 1px solid gray; */
+  border-radius: 0;
+  position: relative;
+  /* left: -1px; */
+}
+.ilentheme-options .content-tab{
+  padding: 20px 40px 20px 40px;
+  width: 670px;
+  /* border: 1px solid gray; */
+  /*margin-left: 3px;*/
+  background: #fff;
+  min-height: 250px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  min-height: 700px;
+}
+.ilentheme-options .content-tab p.description{
+  color: rgb(221, 221, 221);
+}
+.ilentheme-options .top-left{
+  width: 200px;
+  height: 70px;
+  float: left;
+  background: #445157;
+}
+.ilentheme-options .top-left h1{
+  font-size: 1.6em;
+}
+.ilentheme-options .top-right{
+  width: 670px;
+  height: 70px;
+  float: right;
+  background: #4C5A61;
+  padding: 20px 5px 10px 5px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+}
+.ilentheme-options header{
+  clear: both;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:after,
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:before{
+  font-family: FontAwesome;
+}
+.ilentheme-options .ui-tabs.ui-tabs-vertical .ui-tabs-nav li a i{
+  top: -1px;
+  position: relative;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+
+
+/* =CHECKBOX ===========================*/
+.ilentheme-options [type="checkbox"]:not(:checked),
+.ilentheme-options [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.ilentheme-options [type="checkbox"]:not(:checked) + label,
+.ilentheme-options [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 75px;
+  cursor: pointer;
+  top: -10px;
+}
+.ilentheme-options [type="checkbox"]:not(:checked) + label:before,
+.ilentheme-options [type="checkbox"]:checked + label:before,
+.ilentheme-options [type="checkbox"]:not(:checked) + label:after,
+.ilentheme-options [type="checkbox"]:checked + label:after {
+  content: '';
+  position: absolute;
+}
+.ilentheme-options [type="checkbox"]:not(:checked) + label:before,
+.ilentheme-options [type="checkbox"]:checked + label:before {
+  left:0; top: -3px;
+  width: 65px; height: 30px;
+  background: #DDDDDD;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  transition: background-color .2s;
+}
+.ilentheme-options [type="checkbox"]:not(:checked) + label:after,
+.ilentheme-options [type="checkbox"]:checked + label:after {
+  width: 20px; height: 20px;
+  transition: all .2s;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  background: #7F8C9A;
+  top: 2px; left: 5px;
+}
+
+/* on checked */
+.ilentheme-options [type="checkbox"]:checked + label:before {
+  background:#555656; 
+}
+.ilentheme-options [type="checkbox"]:checked + label:after {
+  background: #D7DCDE;
+  top: 2px; left: 40px;
+}
+
+.ilentheme-options [type="checkbox"]:checked + label .ui,
+.ilentheme-options [type="checkbox"]:not(:checked) + label .ui:before,
+.ilentheme-options [type="checkbox"]:checked + label .ui:after {
+  position: absolute;
+  left: 6px;
+  width: 65px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  transition: all .2s;
+
+  top:0;
+}
+.ilentheme-options [type="checkbox"]:not(:checked) + label .ui:before {
+  content: "✕";
+  left: 32px;
+  margin-left: 5px;
+}
+.ilentheme-options [type="checkbox"]:checked + label .ui:after {
+  content: "   ✔";
+  color: #D7DCDE;
+  margin-top: 1px;
+}
+.ilentheme-options [type="checkbox"]:focus + label:before {
+  border: 0px dashed #777;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+.ilentheme-options .background_complete_transparent_check {
+  display: inline;
+  position: relative;
+  top: -14px;
+  margin-left: 0;
+}
+
+
+/* ----------------------------------- */
+
+
+
+
+/* =Radio Image ===========================*/
+.ilentheme-options .row.radio_image ,
+.ilenplugin-options .row.radio_image {}
+
+.ilentheme-options .row.radio_imagelabel,
+.ilenplugin-options .row.radio_image label{
+  display: inline;
+  overflow: hidden;
+}
+
+.ilentheme-options .row.radio_image  input[type="radio"],
+.ilenplugin-options .row.radio_image  input[type="radio"],
+.ilenwidget-options .row.radio_image  input[type="radio"]{
+  display: none;
+}
+
+.ilentheme-options .row.radio_image  img,
+.ilenplugin-options .row.radio_image img{
+  width: 150px;
+  height: 150px;
+  margin-right: 30px;
+  border: 4px solid #fff;
+  padding: 0;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+
+.ilentheme-options .row.radio_image  img.active,
+.ilenplugin-options .row.radio_image  img.active{
+  border-color: #3BA782;
+
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+
+
+
+/* =Button */
+
+
+.super{
+  border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 1.42857em;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding-top: .57143em;
+    padding-right: 1.14286em;
+    padding-bottom: .64286em;
+    padding-left: 1.14286em;
+    font-size: 1.14286em;
+    background-color: #3b7140;
+    border-color: #2a4f2d;
+    color: #fff;
+
+    -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, .5) inset;
+    box-shad
+
+    ow: 0 0 0 rgba(255, 255, 255, .5) inset;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+    background: #47884d;
+    box-shadow: 0 3px 0 #407A44;
+    color: #FFF;
+
+    outline: 0;
+}
+.super:hover, .super:focus {
+    background-color: #2a4f2d;
+    color: #fff;
+    outline: 0;
+}
+.super:active {
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2) inset;
+    box-shadow: 0 0 0 rgba(0, 0, 0, .2) inset;
+
+    outline: 0;
+
+    position: relative;
+    top: 1px;
+    box-shadow: 0 2px 0 #213f24;
+}
+
+
+.ilentheme-options .btn.btn_save {
+  float: right;
+  margin-right: 20px;
+}
+.ilentheme-options .btn.btn_reset {
+  float: right;
+  margin-right: 20px;
+  background: #E06F6F !important;
+  box-shadow: 0 3px 0 #925858;
+}
+.ilentheme-options .btn.btn_reset:hover{
+  background: #FE8D8D !important;  
+}
+.ilentheme-options .btn.btn_reset:active {
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2) inset;
+  box-shadow: 0 0 0 rgba(0, 0, 0, .2) inset;
+  outline: 0;
+  position: relaitve;
+  top: 1px;
+  box-shadow: 0 2px 0 #5F2525;
+}
+
+
+
+
+
+
+/* =Divider Options */
+.ilentheme-options .divide {
+  color: #777777;
+  background-color: #f2f2f2;
+  border: 0px;
+  margin: 20px 0 0px 0;
+  padding: 7px 0 0 15px;
+  height: 25px;
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.ilentheme-options .wp-color-picker{
+  width: 115px !important;
+}
+.ilentheme-options .divide i{
+  font-size: 90%;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+
+.ilentheme-options .color_hover table td:nth-child(2){
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  margin-top: 10px;
+  padding-top: 3px;
+}
+
+
+.ilentheme-options .row .b select {
+  padding: 5px;
+  margin-top: 0;
+  height: 31px;
+  width: 90%;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+}
+.ilentheme-options .select-wrapper select {
+  padding: 2px;
+  width: 100%!important;
+}
+.ilentheme-options .wrap_background_complete{}
+.ilentheme-options .wrap_background_complete .part_1,
+.ilentheme-options .wrap_background_complete .part_2{
+  width: 45%;
+  float: left;
+}
+.ilentheme-options .wrap_background_complete .part_3{
+  width: 100%;
+}
+.ilentheme-options .wrap_background_complete .part_2{
+  float: right;
+}
+.ilentheme-options .wrap_background_complete .selectbc{
+  margin-bottom: 10px;
+}
+.ilentheme-options .wrap_background_complete select{
+  width: 100%
+}
+
+
+
+/* only ie10 */
+.ilentheme-options .row .b select::-ms-expand {
+  display: none;
+}
+@-moz-document url-prefix() {
+    .ilentheme-options .row .b select {
+        -moz-appearance: none;
+        text-indent: 0.01px;
+        text-overflow: "";
+        -moz-appearance: radio-container;
+        width: 115%!important;
+    }
+}
+
+/**
+ * =Typography
+ */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('assets/css/fonts/fontawesome/fontawesome-webfont.eot?v=4.0.3');
+    src: url('assets/css/fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('assets/css/fonts/fontawesome/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('assets/css/fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.3') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face {
+  font-family: 'Elusive-Icons';
+  src:url('assets/css/fonts/elusive/Elusive-Icons.eot');
+  src:url('assets/css/fonts/elusive/Elusive-Icons.eot?#iefix') format('embedded-opentype'),
+    url('assets/css/fonts/elusive/Elusive-Icons.ttf') format('truetype'),
+    url('assets/css/fonts/elusive/Elusive-Icons.woff') format('woff'),
+    url('assets/css/fonts/elusive/Elusive-Icons.svg#Elusive-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * =PLUGIS
+ */
+
+
+.ilenplugin-options h2, .ilenplugin-options h2:before,.ilenplugin-options h2:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ilenplugin-options #tabs > ul li a:focus{
+  outline: 0;
+}
+.ilenplugin-options{
+
+  /*width: 870px;*/
+  background: transparent;
+  /*border: 1px solid rgb(189, 189, 189);*/
+  margin-top: 20px;
+  overflow: hidden;
+  font-size: 1.2em;
+
+}
+.ilenplugin-options .inside{
+  float: left;
+  width: 100%;  
+}
+
+.ilenplugin-options h2{
+  margin: 0;
+  font-size: 23px;
+  font-weight: 400;
+
+  padding: 9px 15px 4px 0;
+  line-height: 29px;
+}
+.ilenplugin-options header{
+  margin: 0 0 0 0 !important;
+  /*height: 32px;*/
+  line-height: 32px;
+  padding: 0 0 0 0;
+  font-size: 24px;
+}
+.ilenplugin-options .row,.ilentheme-options .row{
+  clear: both;
+  margin-bottom: 30px;
+  float: left;
+  display: block;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0
+}
+.ilenplugin-options .row .a{
+  width: 25%;
+  float: left;
+}
+.ilenplugin-options .row .b{
+  width: 73%;
+  float: right;
+}
+.ilenplugin-options .postbox{
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.ilenplugin-options .postbox .help{
+  color: #666;
+  font-size: 11px!important;
+  font-style: italic;
+  line-height: 12px;
+  width: 95%;
+  float: right;
+}
+.ilenplugin-options .row .c{
+  width: 100%;
+  float: none;
+  clear: both;
+  margin-top: 10px;
+}
+
+
+/* =INPUTS */
+.ilenplugin-options .row input[type="text"]{
+  width: 90%;
+}
+
+.ilenplugin-options .row .c input[type="text"]{
+  width: 95%;
+}
+
+.ilenplugin-options .upload input[type="text"] {
+  width: 48%;
+}
+
+.ilenplugin-options .upload .preview {
+  overflow: hidden;
+  position: relative;
+}
+.ilenplugin-options .upload .preview{
+  float: none;
+}
+.ilenplugin-options .upload .preview img {
+  background: #FAFAFA;
+  border-color: #ccc #9498A2 #9498A2 #eee;
+  border-style: solid;
+  border-width: 1px;
+  float: left;
+  max-width: 100%;
+  padding: 4px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  /* -webkit-border-radius: 2px; */
+  -khtml-border-radius: 2px;
+  margin-top: 10px;
+  clear: both;
+}
+
+.ilenplugin-options .upload .admin_delete_image_upload {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  display: block;
+  /* background: url(assets/images/delete.png) no-repeat; */
+  cursor: pointer;
+  padding: 0 5px;
+  background: rgb(255, 111, 111);
+  font-family: verdana;
+  color: #fff;
+}
+
+.ilenplugin-options .row .b select {
+  padding: 5px;
+  margin-top: 0;
+  height: 31px;
+  width: 90%;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+}
+/* only ie10 */
+.ilenplugin-options .row .b select::-ms-expand {
+  display: none;
+}
+@-moz-document url-prefix() {
+  .ilenplugin-options .row .b select {
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+    -moz-appearance: radio-container;
+    width: 115%!important;
+  }
+}
+
+
+.ilenplugin-options .row.radio_image .c label {
+  display: inline;
+  overflow: hidden;
+}
+
+.ilenplugin-options .row.radio_image .c img.active {
+  border-color: #3BA782;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+.ilenplugin-options .row.radio_image .b img {
+  width: 150px;
+  height: 140px;
+  margin-right: 20px;
+  border: 2px solid #fff;
+  padding: 3px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+
+.ilenplugin-options .row.radio_image .b input[type="radio"] {
+  display: none;
+}
+.ilenplugin-options .row.radio_image .b img.active {
+  border-color: #4AB3EF;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+
+.ilenplugin-options .row.radio .b .row_radio{
+  height: 25px;
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.ilenplugin-options .row.radio .b .row_radio span{
+  color: #666;
+  font-size: 11px;
+  font-style: italic;
+  line-height: 11px;
+}
+
+.ilenplugin-options .row.radio .b label{
+  margin-right: 20px;
+}
+
+
+.row_checkbox_list{
+  margin: 0 0 0;
+  clear: both;
+  height: 40px;
+}
+
+.row_checkbox_list .help{
+  display: inline;
+  margin-left: 30px;
+}
+
+
+
+
+
+/* =CHECKBOX ===========================*/
+.ilenplugin-options [type="checkbox"]:not(:checked),
+.ilenplugin-options [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.ilenplugin-options [type="checkbox"]:not(:checked) + label,
+.ilenplugin-options [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 75px;
+  cursor: pointer;
+  line-height: 35px;
+}
+.ilenplugin-options [type="checkbox"]:not(:checked) + label:before,
+.ilenplugin-options [type="checkbox"]:checked + label:before,
+.ilenplugin-options [type="checkbox"]:not(:checked) + label:after,
+.ilenplugin-options [type="checkbox"]:checked + label:after {
+  content: '';
+  position: absolute;
+}
+.ilenplugin-options [type="checkbox"]:not(:checked) + label:before,
+.ilenplugin-options [type="checkbox"]:checked + label:before {
+  left: 0;
+  top: -4px;
+  width: 65px;
+  height: 25px;
+  background: #DDDDDD;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  transition: background-color .2s;
+}
+.ilenplugin-options [type="checkbox"]:not(:checked) + label:after,
+.ilenplugin-options [type="checkbox"]:checked + label:after {
+  width: 14px;
+  height: 14px;
+  transition: all .2s;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  background: #7F8C9A;
+  top: 2px;
+  left: 5px;
+}
+
+/* on checked */
+.ilenplugin-options [type="checkbox"]:checked + label:before {
+  background:#555656; 
+}
+.ilenplugin-options [type="checkbox"]:checked + label:after {
+  background: #D7DCDE;
+  top: 2px; left: 40px;
+}
+
+.ilenplugin-options [type="checkbox"]:checked + label .ui,
+.ilenplugin-options [type="checkbox"]:not(:checked) + label .ui:before,
+.ilenplugin-options [type="checkbox"]:checked + label .ui:after {
+  position: absolute;
+  left: 6px;
+  width: 65px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  transition: all .2s;
+
+  top:0;
+}
+.ilenplugin-options [type="checkbox"]:not(:checked) + label .ui:before {
+  /*content: "✕";*/
+  content: "Off";
+  left: 32px;
+  margin-left: 5px;
+  margin-top: -1px;
+}
+.ilenplugin-options [type="checkbox"]:checked + label .ui:after {
+  /*content: "   ✓";*/
+  content: "On";
+  color: #D7DCDE;
+  margin-top: -2px;
+}
+.ilenplugin-options [type="checkbox"]:focus + label:before {
+  border: 0px dashed #777;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+.ilenplugin-options .row_textarea .text_length{
+  font-size: 10px;
+  font-family: 'arial';
+  border: 0;
+  background: #F9F9F9;
+  color: #969696;
+  font-style: italic;
+  width: 35px!important;
+  height: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+
+  bottom: 10px;
+  right: 0;
+  position: absolute;
+
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+  -webkit-border-top-right-radius: 0;
+}
+.ilenplugin-options .row_textarea{
+  position: relative;
+}
+.ilenplugin-options .row_textarea textarea{
+  padding: 10px 5px 5px 10px;  
+}
+
+
+
+/* =Divider Options */
+.ilenplugin-options .divide {
+  color: #777777;
+  background-color: #f2f2f2;
+  border: 0px;
+  margin: 10px 0 0px 0;
+  padding: 7px 0 0 15px;
+  height: 30px;
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+  -webkit-border-radius: 3px;
+  /* border-radius: 3px; */
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+.ilenplugin-options .wp-color-picker{
+  width: 115px !important;
+}
+.ilenplugin-options .divide i{
+  font-size: 90%;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+
+
+
+
+/* plugin tabs */
+.ilenplugin-options #tabs{}
+.ilenplugin-options #tabs > ul{
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background: #EAEAEB;
+
+  background: #F3F3F3;
+  width: 100%;
+  display: block;
+  padding-top: 10px;
+}
+.ilenplugin-options #tabs > ul li{
+  display: inline;
+  float: left;
+  margin: 0 24px;
+  border-right: 1px solid #d7d7d7;
+  background: #E7E7E7;
+}
+.ilenplugin-options #tabs > ul li a{
+  width: 170px;
+  display: block;
+  text-align: center;
+  color: #474747;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 13px;
+  border-top: 2px solid #F1F1F1;
+}
+.ilenplugin-options #tabs > ul li a:focus{
+  outline: 0;
+}
+.ilenplugin-options #tabs > ul li.ui-state-active{
+  background: #fff;
+}
+.ilenplugin-options #tabs > ul li:last-child{
+  
+}
+
+
+/*.ilenplugin-options .btn,.ilenplugin-options input[type="button"],.ilenplugin-options input[type="submit"] {*/
+.ilenplugin-options .btn {
+  background: #3eaf88;
+  color: #fff;
+  padding: 7px 20px 7px 20px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  font-weight: bold;
+  border:0;
+}
+/*.ilenplugin-options .btn:hover,.ilenplugin-options input[type="button"]:hover,.ilenplugin-options input[type="submit"]:hover{ */
+.ilenplugin-options .btn:hover{
+  /*background:#5ac8a2;*/
+}
+.ilenplugin-options .ilentabs_wrap .sb{
+  border: 1px dashed #DBDBDB;
+  padding: 6px;
+}
+.ilenplugin-options .infobox{
+  font-size: 13px;
+  padding: 5px 10px 0;
+  background: #F9F9F9;
+  color: #8D8D8D;
+}
+.ilenplugin-options .infobox .ibox{
+  border: 1px solid #F8F8F8;
+  padding: 0;
+}
+.ilenplugin-options .infobox h2{
+  font-size: 1.5em!important;
+  margin: 0!important;
+  padding: 0!important;
+}
+.ilenplugin-options h2 .nav-tab{
+  background: #F5F5F5;
+  border-radius: 2px 2px 0 0;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+.ilenplugin-options .nav-tab-active{
+  border-bottom: 1px solid white!important;
+}
+.ilenplugin-options .infobox .featured-buy{
+  color:#919191;
+  margin-top: 30px;
+}
+.ilenplugin-options .infobox .featured-buy i:before{
+  color: #AAA;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.ilenplugin-options .infobox .featured-buy li{
+  margin: 7px 0;
+}
+.ilenplugin-options .infobox .button{
+  width: 100%;
+}
+
+/* COLUMNS */
+@media screen and (min-width: 48em) {
+  .ilenplugin-options .main {
+    width: 70.666666%;
+    padding-right: 1em;
+    float: left;
+  }
+  .ilenplugin-options .sb {
+    float: right;
+    width: 28.333333%;
+  }
+}
+
+
+/* PROGRESS BAR ANIMATE */
+/* Style the background with cool drop shadow effect */
+.ilenplugin-options .progress-wrap{
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background: #DBDBDB;
+}
+/* Style the progress bar and animate */
+.ilenplugin-options .progress{
+  display: inline-block;
+  margin: 0;
+  padding-top: 1px;
+  background: #2e8ffb;
+  width: 100%;
+  height: 32px;
+  border-radius: 2px;
+  text-align: center;
+  background-size: 65px 65px;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  animation: animate-bars 3s linear infinite;
+  -webkit-animation: animate-bars 3s linear infinite;
+  -moz-animation: animate-bars 3s linear infinite;
+  -ms-animation: animate-bars 3s linear infinite;
+  -o-animation: animate-bars 3s linear infinite;
+}
+@-webkit-keyframes animate-bars {
+  0% { background-position: 0px 0px; }
+  100% { background-position: 260px 0px; }
+}
+@-moz-keyframes animate-bars{
+  0% { background-position: 0px 0px;  }
+  100% { background-position: 260px 0px;  }
+}
+@-ms-keyframes animate-bars{
+  0% { background-position: 0px 0px;  }
+  100% { background-position: 260px 0px;  }
+}
+@-o-keyframes animate-bars{
+  0% { background-position: 0px 0px;  }
+  100% { background-position: 260px 0px;  }
+}
+.ilenplugin-options .countup{
+  position: relative;
+  color: #fff;
+  text-align: center; 
+  line-height: 30px;
+}
+
+/* BUTTON @see: Hover.css  http://ianlunn.co.uk/ */
+/* Outline Inward */
+.ilenplugin-options .outline-inward {
+  display: inline-block;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.ilenplugin-options .outline-inward:before {
+  content: '';
+  position: absolute;
+  border: #ececec solid 4px;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  transition-duration: .3s;
+  transition-property: top right bottom left;
+}
+.ilenplugin-options .outline-inward:hover:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1;
+}
+.ilenplugin-options .button {
+  /*margin: .4em;*/
+  /* padding: 1em; */
+  /*cursor: pointer;
+  background: #ececec;
+  text-decoration: none;
+  color: #666;*/
+  /* width: 40%; */
+  /*margin: 20px auto;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit!important;
+  padding: .5em 1em!important;
+  font-size: 23px;
+  background: #fff;
+  height: inherit!important;
+  border-radius: 0;*/
+}
+
+.ilenplugin-options .postbox_note_top{
+  background: #F8F8F8;
+  color: #646464;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 8px;
+  margin: 5px 5px;
+  border-bottom: 2px solid #E7E7E7;
+}
+.ilenplugin-options .help code,.ilentheme-options .help code{
+  padding: 0 6px;
+  font-size: 11px;
+}
+
+
+/* PLUGIN TABS */
+.ilenplugin-options .ilentabs{
+  box-shadow: inherit!important;
+  background: transparent!important;
+  max-width: 1134px;
+}
+
+.ilenplugin-options .ilen-page-content{
+  padding: 5px;
+}
+.ilenplugin-options .ilen-page-content .row{
+  padding: 0;
+  border:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =WIDGET */
+.ilenwidget-options{}
+.ilenwidget-options .row,
+.ilenwidget-options .row .a,
+.ilenwidget-options .row .b{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ilenwidget-options header{
+  margin: 10px 0;
+}
+.ilenwidget-options .row{
+  display: block;
+  clear: both;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.ilenwidget-options .row .a{
+  width: 45%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+.ilenwidget-options .row .b{
+  width: 50%;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.ilenwidget-options .ilenwidget-accordion{
+  padding: 0;
+  background: #FBFBFB;
+  margin: 10px 0!important;
+}
+
+
+/* New Accordion only CSS */
+.ilenwidget-options  .ilenwidget-accordion #iaccordion-container {
+  width: 100%;
+  position: relative;
+}
+
+.ilenwidget-options  .ilenwidget-accordion .iaccordion-header {
+    background: #EEEEEE;
+    border: 0;
+    padding: 12px 10px;
+    font-size: 1.1em;
+    color: rgb(116, 116, 116);
+    font-family: arial;
+    /*border-bottom: 1px solid rgb(226, 226, 226);*/
+    border-left: 2px solid rgb(225, 225, 225);
+    cursor: pointer;
+    clear: both;
+}
+
+.ilenwidget-options  .ilenwidget-accordion .iaccordion-header.active{
+    background: #86A4C0;
+    border-left: 0;
+    /*border-bottom: 3px solid #BDC7D0;*/
+    /*box-shadow: 0px 1px 0px  rgba(134,164,192,.5);*/
+    font-weight: bold;
+    /* border-top: 1px solid rgb(238, 238, 238); */
+    color: #fff;
+}
+.ilenwidget-options .ilenwidget-accordion .iaccordion-content {
+    display: none;
+    padding: 20px;
+    background: #ffffff;
+    /*border: 1px solid #cccccc;*/
+    border-top: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+}
+.ilenwidget-more--button{
+    background: #EAEAEA;
+    color: #8A8A8A;
+    padding: 0px 28px;
+    box-shadow: 0px 1px 1px #C5C5C5;
+    cursor: pointer;
+    margin-bottom: 10px;
+    position: relative;
+}
+.ilenwidget-more--button:after{
+    font-family: "FontAwesome";
+    content:'\f067';
+    position:absolute;
+    left: 10px;
+    top: 2px;
+}
+.ilenwidget-more--button.active_ilen_widget_more:after{
+    font-family: "FontAwesome";
+    content:'\f068';
+}
+.ilenwidget-more .widget_body-more{
+    display:none;
+}
+.ilenwidget-more .widget_body-more.active_ilen_widget_more{
+    display:block;
+}
+.ilenwidget-more header{
+    background: #F9F9F9;
+    position: relative;
+    top: -10px;
+    font-style: italic;
+    color: #A0A0A0;
+}
+.ilenwidget-more .row .a .help{
+    display: inline-block;
+    margin-left: 20px;
+    color: #CECECE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* MESAGGE */
+.notification-p{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.notification-p > aside {
+  display: table-cell;
+  width: 60px;
+  background-color: rgba(0,0,0,0.267);
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  vertical-align: middle;
+}
+.notification-p > main {
+  display: table-cell;
+  padding: 20px 10px;
+  color: #333;
+}
+.notification-p.success{
+  background: #D4FAC9;
+}
+.notification-p.perror{
+  background: #FAC9D3;
+}
+
+
+/* switch---------------------------- */
+.switch {
+  position: relative;
+  height: 34px;
+  width: 169px;
+  background: rgb(255, 255, 255);
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 75px;
+  line-height: 35px;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(92, 92, 92);
+  text-align: center;
+  /* text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45); */
+  cursor: pointer;
+}
+
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label-off {
+  padding-left: 8px;
+}
+
+.switch-label-on {
+  padding-left: 28px;
+}
+
+/*
+  Note: using adjacent or general sibling selectors 
+  combined with pseudo classes doesn't work in Safari 
+  5.0 and Chrome 12.
+  See this article for more info and a potential fix: 
+  http://css-tricks.com/webkit-sibling-bug/
+*/
+
+.switch-input {
+  display: none!important;
+}
+
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: #FFF;
+  /*text-shadow: 0 1px rgba(255, 255, 255, 0.25);*/
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}
+
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  /* Note: left: 50% doesn't transition in WebKit */
+  left: 87px;
+}
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 2px;
+  width: 80px;
+  height: 30px;
+  background: #65bd63;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(top, #9dd993, #65bd63);
+  background-image: -moz-linear-gradient(top, #9dd993, #65bd63);
+  background-image: -o-linear-gradient(top, #9dd993, #65bd63);
+  background-image: linear-gradient(to bottom, #9dd993, #65bd63);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+
+.switch-blue .switch-selection {
+  background: #3aa2d0;
+  background-image: -webkit-linear-gradient(top, #4fc9ee, #3aa2d0);
+  background-image: -moz-linear-gradient(top, #4fc9ee, #3aa2d0);
+  background-image: -o-linear-gradient(top, #4fc9ee, #3aa2d0);
+  background-image: linear-gradient(to bottom, #4fc9ee, #3aa2d0);
+}
+
+.switch-yellow .switch-selection {
+  background: #c4bb61;
+  background-image: -webkit-linear-gradient(top, #e0dd94, #c4bb61);
+  background-image: -moz-linear-gradient(top, #e0dd94, #c4bb61);
+  background-image: -o-linear-gradient(top, #e0dd94, #c4bb61);
+  background-image: linear-gradient(to bottom, #e0dd94, #c4bb61);
+}
+
+
+/* Item pattern BG */
+
+.pattern_bg_wrap{
+  clear: both;
+  display: block;
+  padding-top: 10px;
+
+}
+.pattern_bg_wrap label{}
+.pattern_bg_wrap input[type="radio"]{
+  display: none!important;
+}
+.item_pattern_bg{
+  width: 52px;
+  height: 48px;
+  background-repeat: repeat;
+  float: left;
+  margin-right: 1px;
+  border:2px solid #F9F9F9;
+  margin-top: 1px;
+}
+.item_pattern_bg.active{
+  border-color: #383E4B;
+  box-shadow: 0px 0px 5px rgb(36, 27, 27);
+}
+
+
+/* ----------------------------------- */
+.custom_bg_wrap,
+.pattern_bg_wrap{
+  overflow: hidden;
+  width: 100%;
+
+  -webkit-transition: all 2.85s ease-out;
+  -moz-transition: all 2.85s ease-out;
+  -o-transition: all 2.85s ease-out;
+  transition: all 2.85s ease-out;
+}
+.custom_bg_wrap .upload{
+  width: 100%;
+  display: block;
+}
+
+
+
+
+
+
+
+/* Slider Range */
+/*#slider {
+  width: 400px;
+  height: 17px;
+  position: relative;
+  margin: 100px auto;
+  background: #10171D;
+  
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  
+  -webkit-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
+  -moz-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
+  box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
+}
+
+#slider .bar {
+  width: 388px;
+  height: 5px;
+  background: #333;
+  position: relative;
+  top: -4px;
+  left: 4px;  
+  
+  background: #1d2e38;
+  background: -moz-linear-gradient(left, #1d2e38 0%, #2b4254 50%, #2b4254 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1d2e38), color-stop(50%,#2b4254), color-stop(100%,#2b4254));
+  background: -webkit-linear-gradient(left, #1d2e38 0%,#2b4254 50%,#2b4254 100%);
+  background: -o-linear-gradient(left, #1d2e38 0%,#2b4254 50%,#2b4254 100%);
+  background: -ms-linear-gradient(left, #1d2e38 0%,#2b4254 50%,#2b4254 100%);
+  background: linear-gradient(left, #1d2e38 0%,#2b4254 50%,#2b4254 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2e38', endColorstr='#2b4254',GradientType=1 );  
+  
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+}
+
+#slider .highlight {
+  height: 2px;
+  position: absolute;
+  width: 388px;
+  top: 6px;
+  left: 6px;
+    
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  
+  background: rgba(255, 255, 255, 0.25);
+}*/
+
+input[type="range"] {
+  -webkit-appearance: none !important;
+  width: 81%;
+  height: 8px;
+  background-color: #a3cd99;
+  border: 1px solid #97c68b;
+  border-radius: 10px;
+  margin: auto;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  width: 20px;
+  height: 20px;
+  background-color: #579E81;
+  border-radius: 30px;
+  box-shadow: 0px 0px 3px darken(#579E81, 15%);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+input[type="range"]:focus{
+  outline: 0;
+}
+input[type="range"]:hover ~ #rangevalue,input[type="range"]:active ~ #rangevalue {
+  opacity: 1;
+}
+
+
+
+
+
+/* Tool Tip */
+#rangevalue {
+  border: 1px solid #ddd;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+  background-color: #fff;
+  color: #333;
+  -webkit-transition: .05s border-color ease-in-out;
+  transition: .05s border-color ease-in-out;
+  width: 34px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  padding: 5px 5px 0px 5px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #d7d7d7;
+  box-shadow: none;
+  font-family: "Roboto", sans-serif;
+  height: 30px;
+}
+
+
+
+/* Widget */
+.ilen_widget_admin_wrap{}
+.ilen_widget_admin_wrap .ilen_widget_admin_custom_fields{
+  padding: 0px 10px;
+  background: #F3F3F3;
+}
+
+.ilen_widget_admin_wrap .ilen_widget_admin_custom_fields p{
+  margin: 0;
+  padding: 0;
+}
+
+.ilenplugin-options .iris-picker, .ilentheme-options.iris-picker *{
+  -moz-box-sizing: content-box!important;
+  -webkit-box-sizing: content-box!important;
+  box-sizing: content-box!important;
+}
+.ilenplugin-options .wp-picker-container input[type="button"],.ilentheme-options .wp-picker-container input[type="button"]{
+  margin: 0!important;
+}
+.ilenplugin-options .wp-picker-container .wp-picker-input-wrap,.ilentheme-options .wp-picker-container .wp-picker-input-wrap{
+  width: 65%;
+}
+.ilenplugin-options .wp-picker-container input[type="text"],.ilentheme-options .wp-picker-container input[type="text"]{
+  width: 48% !important;
+  margin-right: 5px;
+}
+
+
+
+/* BOOTSTRAP */
+
+.ilenplugin-options .btn {
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.ilenplugin-options .btn-group .btn{
+  font-size: 13px;
+  padding: 5px 12px 5px 12px;
+  font-weight: normal;
+  background: #f7f7f7;
+  border: 1px solid transparent;
+  border: 1px solid rgb(187, 187, 187);
+  opacity: .9;
+}
+.ilenplugin-options .btn-group .btn-default:hover, 
+.ilenplugin-options .btn-group .btn-default:focus, 
+.ilenplugin-options .btn-group .btn-default:active, 
+.ilenplugin-options .btn-group .btn-default.active, 
+.ilenplugin-options .btn-group .open .dropdown-toggle.btn-default {
+  background: #fafafa;
+  border-color: #999;
+  color: #222;
+  opacity: 1;
+}
+
+.ilenplugin-options .btn-group {
+  border: 4px solid #f9f9f9;
+  border-radius: 4px;
+}
+
+.ilenplugin-options .btn-group .btn.active{
+  background-color: #fff;
+  border-color: #dbdbdb;
+}
+
+.ilenplugin-options .btn-group .btn.active.value {
+  text-shadow: none;
+  color: #fff;
+  background-color: #33aad5;
+  -webkit-box-shadow: inset 0 1px 1px #0074a2;
+  box-shadow: inset 0 1px 3px #0074a2;
+  border-top: 1px solid #0074a2;
+  border-bottom: 1px solid #0074a2;
+  border-left: 1px solid #0074a2;
+}
+.ilenplugin-options .btn-default {
+  color: #333!important;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.ilenplugin-options .btn-group > .btn:last-child:not(:first-child),
+.ilenplugin-options .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.ilenplugin-options .btn-group .btn {
+  padding: 3px 10px 4px 10px;
+}
+.ilenplugin-options .btn-default {
+  background: #fafafa;
+  color: #555;
+  border-color: #ccc;
+  background: #f7f7f7;
+  -webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+  box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+  vertical-align: top;
+}
+.ilenplugin-options button, 
+html .ilenplugin-options input[type="button"], 
+.ilenplugin-options input[type="reset"], 
+.ilenplugin-options input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+} 
+.ilenplugin-options .btn-group .btn + .btn, 
+.ilenplugin-options .btn-group .btn + .btn-group, 
+.ilenplugin-options .btn-group .btn-group + .btn, 
+.ilenplugin-options .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+.ilenplugin-options .btn-default:active, 
+.ilenplugin-options .btn-default.active {
+  background-color: #fff;
+  border-color: #dbdbdb;
+}
+.ilenplugin-options .btn-default:active, .ilenplugin-options .btn-primary:active, .ilenplugin-options .btn-success:active, .ilenplugin-options .btn-info:active, .ilenplugin-options .btn-warning:active, .ilenplugin-options .btn-danger:active, .ilenplugin-options .btn-default.active, .ilenplugin-options .btn-primary.active, .ilenplugin-options .btn-success.active, .ilenplugin-options .btn-info.active, .ilenplugin-options .btn-warning.active, .ilenplugin-options .btn-danger.active {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+.popover.left > .arrow{
+    left: initial;
+}
+
+.ilenplugin-options .btn-group [class^="btn-"] {
+    color: #4D4D4D!important;
+}
+
+.ilenplugin-options .input-group .date input[type=text],
+.ilenplugin-options .row .input-group input[type=text]{
+    width: 100%;
+    margin-left: 2px;
+}
+.ilenplugin-options .picker-switch a.btn{
+    padding: 0!important;
+}
+.ilenplugin-options .ilen-page-content .btn:hover{
+    background: inherit;
+}
+.ilenplugin-options .flag-style{
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+}
+/*
+@link http://codepen.io/jeffballweg/pen/XJKwvp
+*/
+.ilenplugin-options .text_emphasis{
+    background: -webkit-linear-gradient(rgba(227, 221, 36, 0.15), rgba(227, 221, 36, 0.6), rgba(196, 191, 22, 0.6), rgba(227, 221, 36, 0.24));
+    background: linear-gradient(rgba(227, 221, 36, 0.15), rgba(227, 221, 36, 0.6), rgba(196, 191, 22, 0.6), rgba(227, 221, 36, 0.24));
+    border-right: solid 0.5em rgba(196, 191, 22, 0.15);
+    border-left: solid 0.5em rgba(227, 221, 36, 0.3);
+    text-decoration: none;
+
+    padding: 0.3em 0em 0.2em 0em;
+    margin: 0.3em -0.5em 0.3em -0.5em;
+    border-radius: 50% 3em 50% 3em;
+    color: rgba(0, 0, 0, 0.7);
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+.ilenplugin-options .text_emphasis.custom{
+    padding: 1.2em 0em 0.2em 0em;
+    margin: 0.2em -0.8em 0.3em -0.5em;
+    border-radius: 50% 8em 50% 3em;
+}

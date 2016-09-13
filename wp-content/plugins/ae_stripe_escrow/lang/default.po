@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ae_stripe_escorw\n"
+"Report-Msgid-Bugs-To: http://www.enginethemes.com/\n"
+"POT-Creation-Date: 2015-10-13 10:19+0700\n"
+"PO-Revision-Date: 2015-10-13 10:19+0700\n"
+"Last-Translator: dakachi <david87dang@gmail.com>\n"
+"Language-Team: Engine Themes <contact@enginethemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _e;__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\mywork\\YW\\Release\\AE_STRIPE_ESCROW"
+"\\ae_stripe_escrow\n"
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/ae_stripe_escrow.php:65
+msgid "The Credit card number is invalid."
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/ae_stripe_escrow.php:66
+msgid "The name on card is invalid."
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/ae_stripe_escrow.php:67
+msgid "The transaction completed successful!."
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/ae_stripe_escrow.php:68
+msgid "The transaction was not completed successful!."
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/ae_stripe_escrow.php:106
+msgid "Please connect with Stripe to bid a project."
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:10
+msgid "Stripe API"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:21
+msgid "use stripe escrow"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:30
+msgid "Your Stripe client secret key"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:38
+msgid "Your Stripe client public key"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:46
+msgid "Your Stripe client id"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:52
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:53
+msgid "Stripe fees"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:58
+msgid "Primary receiver pays all fees"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:59
+msgid "Each receiver pays their own fee"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/settings.php:60
+msgid "Secondary receivers pay all fees"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:111
+msgid "Connect with Stripe"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:113
+msgid "Reconnect with Stripe"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:148
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:178
+msgid "Update failed!"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:183
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:186
+msgid "You updated successfully!"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:304
+msgid "charge failed"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:428
+msgid "Freelance escrow"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:528
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:595
+msgid "Send payment successful."
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:529
+msgid "Success"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:535
+msgid "Refund failed!"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:601
+msgid "Send payment failed"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/stripe.php:608
+msgid "Invalid charge."
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:17
+msgid "Stripe's email:"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:25
+msgid "Card number:"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:33
+msgid "Expiry date:"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:48
+msgid "Name on card:"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:57
+msgid "Card code:"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:84
+msgid "Change Stripe account"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:87
+msgid "Update Stripe information"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:109
+msgid "Update your stripe's credit card information"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:117
+msgid "Update"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:167
+msgid "Your Stripe Account"
+msgstr ""
+
+#: D:\mywork\YW\Release\AE_STRIPE_ESCROW\ae_stripe_escrow/template.php:168
+msgid "Enter your Stripe email"
+msgstr ""

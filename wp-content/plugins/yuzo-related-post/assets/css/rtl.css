@@ -1,0 +1,49 @@
+.yuzo_related_post .relatedthumb{
+  float: right!important;
+}
+.yuzo-list .image-list{
+  margin-left: 15px!important;
+  float: right!important;
+  margin-right: 0px;
+}
+.yuzo_related_post .relatedthumb{
+  text-align: right; 
+}
+
+.yuzo__title h3, .yuzo__title{
+  vertical-align: initial;
+}
+
+.yuzo_related_post_widget .relatedthumb, .yuzo_views_post{
+  text-align: right;
+}
+
+.style-3 .yuzo-list:before{
+  left: initial;
+  right: 0px;
+  content: '';
+  background: url(../images/arrow-right-point.png);
+}
+
+.style-3 .yuzo-list a{
+  padding-right: 22px;
+  padding-left: initial;
+}
+
+.yuzo-list .link-list .yuzo_views_post{
+  background: url(../images/views.png) right no-repeat;
+  text-align: right;
+}
+
+.yuzo_icon_views{
+  padding-right: 21px;
+  padding-left: initial;
+}
+
+.yuzo_related_post_widget .relatedthumb{
+  float: right;
+}
+
+.yuzo_related_post_widget .yuzo-list-color .yuzo_icon_views, .yuzo_related_post_widget.style-1 .yuzo_icon_views{
+  background: url(../images/views2.png) right no-repeat;
+}

@@ -1,0 +1,68 @@
+/*!
+ * Structure Sass Pages Freelancer Engine Themes (http://enginethemes.com)
+ */
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.1 IMPORT FONT FAMILY
+--------------------------------*/
+@import "pages/_fonts";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.2 DECLARE PARAMETERS FOR PAGE
+--------------------------------*/
+@import "pages/_declare";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.3 IMPORT RESET
+--------------------------------*/
+@import "pages/_reset";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.4 STYLE CSS FOR HEADER
+--------------------------------*/
+@import "pages/_header";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.5 STYLE CSS FOR SLIDER
+--------------------------------*/
+@import "pages/_slider";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.6 STYLE CSS FOR SEARCH
+--------------------------------*/
+@import "pages/_search";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.7 STYLE CSS FOR FOOTER
+--------------------------------*/
+@import "pages/_footer";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.8 STYLE CSS FOR WIDGET
+--------------------------------*/
+@import "pages/_widget";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.9 STYLE CSS FOR HOMEPAGE
+--------------------------------*/
+@import "pages/_home";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.10 STYLE CSS FOR PROFILE
+--------------------------------*/
+@import "pages/_profile";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.10 STYLE CSS FOR PROJECT
+--------------------------------*/
+@import "pages/_project";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.11 STYLE CSS FOR BLOG
+--------------------------------*/
+@import "pages/_blog";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+    2.12 STYLE CSS FOR POST PROJECT
+--------------------------------*/
+@import "pages/_post-project";

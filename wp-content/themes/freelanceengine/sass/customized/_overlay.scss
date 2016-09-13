@@ -1,0 +1,118 @@
+
+body.admin-bar {
+  .overlay {
+    .overlay-close {
+      top: 62px;
+    }
+    nav {
+      top: 53%;
+    }
+  }
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba($blue-base,0.95);
+  z-index:1100;
+  .overlay-close {
+    display:inline-block;
+    position:relative;
+    z-index:9999;
+    top: 30px;
+    left: 10px;
+    i{
+      font-size:22px;
+      color:$white-base;
+    }
+  }
+  .menu-fullscreen{
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      display: block;
+      height: 100%;
+      position: relative;
+      li {
+        display: block;
+        height: 20%;
+        height: calc(100% / 5);
+        min-height: 40px;
+        a {
+          font-weight: 100;
+          display: inline-block;
+          color: $white-base;
+          -webkit-transition: color 0.2s;
+          transition: color 0.2s;
+          position: relative;
+          font-size: 48px;
+          &:before {
+            content: '';
+            position: absolute;
+            height: 2px;
+            width: 0;
+            background: $white-base;
+            left: -15%;
+            top: 50%;
+            margin-top: -2px;
+            -webkit-transition: all 0.75s cubic-bezier(0, 0.83, 0.17, 1);
+            -moz-transition: all 0.75s cubic-bezier(0, 0.83, 0.17, 1);
+            -o-transition: all 0.75s cubic-bezier(0, 0.83, 0.17, 1);
+            transition: all 0.75s cubic-bezier(0, 0.83, 0.17, 1);
+            z-index: 999;
+          }
+          &:hover:before {
+            width: 130%;
+          }
+        }
+      }
+    }
+    .sub-menu {
+      li {
+        height: 20px;
+        a{
+          color:$white-base;
+          -webkit-transition: color 0.2s;
+          transition: color 0.2s;
+          position:relative;
+          font-weight: 100;
+          font-size: 22px;
+          &:hover{
+            opacity:.9;
+          }
+        }
+      }
+    }
+  }
+}
+.overlay nav {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  height: 60%;
+  font-size: 41px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.overlay-scale {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
+  transition: transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
+}
+
+.overlay-scale.open {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+  overflow:auto;
+  z-index: 9999;
+}

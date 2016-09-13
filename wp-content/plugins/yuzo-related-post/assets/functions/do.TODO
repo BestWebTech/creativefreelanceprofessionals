@@ -1,0 +1,120 @@
+Nuevos cambios en YUZO RELATED POST:
+ ✔ Crear la posibilidad de crear 2 template de uso (en forma de layout) @done (14-11-23 02:17)
+   mira este ejemplo: https://wordpress.org/plugins/seo-alrp/screenshots/ 
+   https://s.w.org/plugins/seo-alrp/screenshot-4.jpg?r=1009711
+
+   --- ✄ -----------------------
+   **esto ya no va**
+   Cada uno de los template tiene que tener su propia personalización, al menos eso
+   es lo que pienso, no se si se pueda fucionar opciones y simplemente cada uno tiene
+   su propio, pero tienes que hacer estas pruebas
+
+   *poner la opcion para poder ponerle border por cada related 
+    --- ✄ -----------------------
+ ☐ Crear una pestaña con estadisticas por visitas @high version 5
+   Recuerda lo que hiciste con plus thumbnail, asi tienes que hacer en yuzo,
+   esas estadisticas. De alguna manera lo tienes que hacer para que la gente
+   se quede contenta con las visitas. 
+ ☐ Seo links @empesado(23/11/2014 2:28:31)
+ ✔ poner la opcion de manejar le padding margin por cada related @done (14-11-23 02:15)
+ ☐ poner la opcion de manejarlo de manera responsive (Version 5)
+ ✔ Border shadow en los related con imagenes (box-shadow: 2px 2px 4px rgba(116, 116, 116, 1) @done (15-01-24 00:59)
+ ✘ Crear estadiscicas @low @cancelled (15-01-24 01:00)
+   Cada vez que den un clic en el link tienes que mandarlo a un php que obtenga las 
+   estadistias como el plugin de video, estos link en los related tienen que tener
+   los nofollow porque sera unos link lamparas, los link reales tiene que estar
+   escondidos alli por hay
+ ☐ Crear link SEO @high
+   Esto le permitira a la persona poner otros link en linea a linea y se mostraran
+   ocultos con el rel="follow" algo asi lo que te mando hacer lo de calle7 para que
+   google los considera mas
+ ☐ Crear widget: tiene al siguiente caracteristicas
+   ✔ -Los mas vistos, comentatos, destacados @done (15-01-24 01:01)
+     Junto con la modificacion que pueda ver los view de cada noticia tiene que crear
+     un widget que permita ver los mas vistos por algunos filtros en especial por 
+     intervalos.
+   ✔ -Formas @done (14-12-27 14:37)
+     Los nuevos widgets tendran varias formas, es decir 2 o 3 columnas responsive,
+     este widget sera bueno para que la gente como loca, tambien se podra poner
+     los view y comentarios que tiene esa noticia, tambien recuerda eso que va de
+     colores hacia abajo, tambien es buena opcion.
+   ✔ -Mostrar solo en partes adecuadas @done (15-01-24 01:01)
+     El widget tiene que mostrar en todas las categorias o solo expecificas, tambien
+     lo puede excluir de type post o de paginas
+   ✔ -Efectos visuales @done (14-12-27 14:37)
+   ☐ Resposive
+     El plugin debe ser cmopatible con el responsive.
+     A nive del hover image
+ ✔ Efectos visiales @done (14-11-23 02:16)
+   A nivel de los related post, recuerda que tienes variso ejemplos en tus notas y en
+   codepen.io
+ ☐ Navegación @low VERSION 5 (pensando)
+   Crear 2 tipos de navecación, posiblemente el que te aparece a los lados de la pagina
+   seria uno y el otro podia ser ese que sale NEXT/PREV abajo de la noticia, esta opcion
+   no estoy muy seguro pero podria ser buena
+ ☐ Sticky Post VERSION 5 (pensando)
+   Hay un sticke post que sale cuando tu bajas la pagina plos aparece un cuadro, ese seria
+   bueno que se integre tambien, mostraria el ultima destacado o uno que la persona elija
+   esta opcion se configura en el panel de control
+ ☐ Related Promotions$ VERSION 5 (http://i57.tinypic.com/2wf60iw.jpg)
+   Esta opcion es prometedora, lo que hara es crear un tipo post 'YUZO' este pide...
+   link(url,), title, image, tiempo desde hasta promociona el post, texto 'promocion'
+   cambiable por el usuario.
+   Esta parte tambien va en las estadisticas para que se pueda ver quien le a dado click
+   en las promociones, tambien se tiene que ver un reporte estadistico de los clic en esta
+   promocion, sirve para promover otros blogs de manera gratis y si uno tener que ver en eso
+ ✔ Dashboar with views @done (15-01-25 16:48)
+   ✔ El dashboar se le debe agragar la columna de los views @done (14-11-23 02:17)
+   ✔ Colores segun las visitas @critical @done (15-01-25 16:48)
+   mostrar un fuego gris cuando es menos de 1000, cuando pase los 1000 un fuego amarillo suave
+   cuando pase los 10 mil un fuego naranja, cuando pasa los 25 mil fuego rojo y mas de 50 mil 
+   fuergo azul :D
+
+ ✔ Disable related to specific post. @done (15-01-24 01:02)
+   Es decir que se pueda desactivar related post en post especificos.
+ ☐ Agregar un slider (VERSION 5) PENSANDO
+   Segun este topics https://wordpress.org/support/topic/horizontal-style dicen que hay
+   paginas donde quieren mas o menos slider para que se ajusten a su theme, la solucion 
+   es un slider donde tenga un ancho fijo y que se oculte los related segun su numero.
+ ✔ Agregar opcion de no mostrar en la pagina de categorias @done (15-01-24 16:47)
+   Si es wordpress tipo blog lo que se puede hacer es que agregar la opcion por medio
+   de un check que no se muestren en paginas de categorias. Esto un usuario que tiene
+   wordpress tipo Blog le sale, ademas Yuzo solo tiene la opcion de NO MOSTRAR EN HOME
+   pero creo que no esta validado para mostrar en paginas is_archives().
+
+ ✔ Agregar el filtrar por TAGS que no se muestre en tales tags...  @done (15-01-24 01:07)
+   Un usuario dice que usa unos tags diferentes que no tiene que ver con las noticias
+   y quiere que esos 3 tags no esten relacionados cuando yuzo muestre las noticias
+ ✔ De 2,890 a 3K @done (15-01-24 17:27)
+
+ ✘ Post individuales, algo asi tiene que tener yuzo @cancelled (15-01-24 01:09)
+   https://wordpress.org/plugins/related-links-blender/
+
+ ☐ Agregar para que el ancho de related sea tomado en porcentajes
+   El problema aqui es el alto de la imagen ay q ver como lo toma el alto, tambien
+   si lo hace en porcetanje de ancho tambien tendra que se en margin y paddegin
+
+ ✔ Agregar el _target para los link @done (15-01-24 18:18)
+   Al dar clic en el related tiene que irse a otra pestaña
+ ✔ Me pidieron que no se muestre en la pagina de archivos (como categorias, etc....) @done (15-01-24 17:47)
+
+ ✔ Revisa si vale bien el cache @done (15-01-29 01:58)
+ ☐ Realizar Yuzo con nuevos efectos como este related post
+   La idea es que el usuario elija el theme clasico o al momento de poner los nuevos themes
+   prefabricado ya se le oculte las opciones de texto, esto theme los puedes ver dentro de esta
+   pagoina web https://wordpress.org/plugins/modern-related-posts/
+   otro: http://momstyle.net/gray-benko-summer-2015-kids-clothes/
+
+ ☐ Agregar en el readme.txt que ayuda al SEO
+
+ERRORES:
+ ✔ Solo en el efecto de hacer grande el related tienes que quitar el overflow:hidden, el resto tiene que que tenerlo porque pasa algo en muchos themes..... @done (15-01-30 22:15)
+ ✔ agregar la opcion en el metabox para que no se mueva en ningun lado... y dejar abierta la pauta para que no se cierre, esas 2 opciones agregarles. @done (15-01-31 01:07)
+ ✔ En el widget cuando lo pone lo mas visto ese sql no esta bien hecho ay que hacerlo para que filtre ahora desde la tabla nueva que se creo, ese parte ay que arreglar @done (15-02-09 02:13)
+ ☐ Hay un error en los aceptos donde salen un rombo raro, este error en el foro un man lo pudo corregir ay que ver la funcion y tratar de aplicarlo en la funcion padre que envie el titulo y el texto.
+   mb_substr($utfstring,0,10,'utf-8');
+ ☐ Dicen que al poner el custom del theme este plugin hace que no aparezca, revisar eso
+ ☐ 
+
+ CORE:
+ ☐ Cuando tengas tiempo tienes que hacer que los metabox al moverlos se adapten perfectamente de una lado para el otro, es jodido pero ay que hacerlo
