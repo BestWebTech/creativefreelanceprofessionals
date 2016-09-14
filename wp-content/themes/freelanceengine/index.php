@@ -40,7 +40,7 @@
 			if(have_posts()){
 				get_template_part( 'list', 'posts' );
 			} else {
-				echo '<h2>'.__( 'this is testing. There is no posts yet', ET_DOMAIN ).'</h2>';
+				echo '<h2>'.__( 'There is no posts yet', ET_DOMAIN ).'</h2>';
 			}
 		?>
 		</div><!-- LEFT CONTENT -->
